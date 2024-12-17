@@ -8,11 +8,11 @@ Work In Progress
 
 CGI
 - Octane
-    ↳ ORBX
-        ↳ /lights
-        ↳ /materials
-        ↳ /kernels
-        ↳ /project_files
+  ↳ ORBX
+    ↳ /lights
+    ↳ /materials
+    ↳ /kernels
+    ↳ /project_files
 
 
 ## System Requirements
