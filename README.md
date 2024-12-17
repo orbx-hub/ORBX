@@ -7,21 +7,16 @@ skientia.co ORBX file reposity
 Work In Progress
 
 CGI
-  ↳ Octane
+- Octane
     ↳ ORBX
         ↳ /lights
         ↳ /materials
         ↳ /kernels
         ↳ /project_files
-  ↳ Textures
-      ↳ /carbon_fiber
-  ↳ Blender
-    ↳ files
-  ↳ Fusion
-    ↳ files
 
 
 ## System Requirements
 
 OctaneRender® Standalone and or plug-in, cross platform.
+OctaneRender® is available for free via the free tier, e.g. Octane for Blender.
 Recommended version: 2024.
