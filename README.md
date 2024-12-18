@@ -24,8 +24,12 @@ Cross-platform
 > [!NOTE]
 > OctaneRender® is available for free via the free tier, e.g. Octane for Blender.
 
+> [!TIP]
+> Copying `Raw` code to pasting in Standalone will identically add the ORBX content, without downloading the .orbx as nodes in Standalone are XML formatted data. 
+Doing so does not substitute to download and placing the .orbx files or folders into the LocalDb directory.
+
 > [!IMPORTANT]
-> Plug-in users must refer to the dedcated Octane [plug-in host] documentation for ORBX import information.
+> Plug-in users must refer to the dedcated Octane [plug-in host e.g. Octane for Blender] documentation for ORBX import information.
 
 ## To-do
 - [x] Initiate porting to Github
