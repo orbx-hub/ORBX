@@ -9,24 +9,27 @@ Two approaches to this workflow:
 1. Copy of the raw code, for instance, to direcly paste in Octane Standalone
 2. Download of the .orbx file for a direct copy into the ORBX folder default directory known as the "LocalDb".
 
-The following preset categories are available, with room for more:
-
-| Type  | Description |
-| ------------- | ------------- |
-| Lights  | for improved light sampling, substentially increased efficiency and groups for creative filters  |
-| Kernels   | for various situations e.g. faster, low preview sampling to particular cases such as caustics   |
-| Materials   | from fully procedural textures to material-groups for more complex surfaces       |
-| Project files   | complete data set, including geometry assets, textures ("painted"), camerass, and more   |
-
+| Category | Description |
+| :---   | :---   |
+| `Lights` | for improved light sampling, substentially increased efficiency and groups for creative filters |
+| `Kernels` | for various situations e.g. faster, low preview sampling to particular cases such as caustics |
+| `Materials` | from fully procedural textures to material-groups for more complex surfaces |
+| `Project files` | complete data set, including geometry assets, textures ("painted"), camerass, and more |
 
 
 
 ### System Requirements
+Recommended version: `Octane 2024` (Standalone or plug-in) and onwards.
+Cross-platform
+> [!NOTE]
+> OctaneRender® is available for free via the free tier, e.g. Octane for Blender.
 
-OctaneRender® Standalone and or plug-in, cross platform.
-OctaneRender® is available for free via the free tier, e.g. Octane for Blender.
+> [!IMPORTANT]
+> Plug-in users must refer to the dedcated Octane [plug-in host] documentation for ORBX import information.
 
-Recommended version: 2024 and onwards.
+## To-do
+- [x] Initiate porting to Github
+- [ ] Capitalization / Lowercase: [OTOY Forum](https://render.otoy.com/forum/viewtopic.php?f=32&t=84289#p436653) | status: TBD
 
 ### About ORBX
 > OTOY releases OctaneRender™ 1.5 and introduces .ORBX (20, 2014) 
