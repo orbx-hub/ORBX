@@ -5,7 +5,7 @@ skientia.co ORBX file reposity for Octane Render, a spectral GPU renderer[^1]
 [^1]: Images and information from: [Octane Spectral GPU Path-traced Rendering](https://skientia.co/cgi/octane-render)
 
 <details>
-<summary> About The 3D File Format </summary>
+<summary> About the 3D file format </summary>
 
   ## ORBX
   
@@ -41,7 +41,7 @@ Dedicated [Wiki page](https://github.com/skientia/ORBX/wiki).
 
 ### System Requirements
 Recommended version: `Octane 2024` (Standalone or plug-in) and onwards.
-Cross-platform
+Cross-platform (Windows, Linux, macOS).
 > [!NOTE]
 > OctaneRender® is available for free via the free tier, e.g. Octane for Blender.
 
@@ -54,7 +54,4 @@ Doing so does not substitute to download and placing the .orbx files or folders 
 
 ## To-do
 - [x] Initiate porting to Github
-- [ ] Capitalization / Lowercase: [OTOY Forum](https://render.otoy.com/forum/viewtopic.php?f=32&t=84289#p436653) | status: TBD
-
-## License
-MIT
+- [ ] Capitalization / Lowercase: [OTOY Forum](https://render.otoy.com/forum/viewtopic.php?f=32&t=84289#p436653) (status: TBD)
