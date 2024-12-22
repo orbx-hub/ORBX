@@ -44,6 +44,3 @@ The new .ORBX file format improves considerably on traditional 3D formats such a
 > The ORBX file format is the best way to transfer scene files from 3D Authoring software programs that use the Octane Plug-in such as Octane for Maya, Octane for Cinema 4D, or OctaneRender Standalone. This format is more efficient than FBX when working with Octane specific data as it provides a flexible, application independent format. ORBX is a container format that includes all animation data, models, textures etc. that is needed to transfer an Octane scene from one application to another. [Source)
 
 ## License
-TBD - until further elaboration:
-* Sharing — approved copying and redistribution of the material in any medium or format for any purpose, even commercially.
-* Adapting — remixing, transforming, and building upon the material for any purpose, even commercially.
