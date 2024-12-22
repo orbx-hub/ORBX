@@ -31,10 +31,10 @@ Two approaches to this workflow:
 
 | Category | Description |
 | :---   | :---   |
-| `Lights` | for improved light sampling, substentially increased efficiency and groups for creative filters |
-| `Kernels` | for various situations e.g. faster, low preview sampling to particular cases such as caustics |
-| `Materials` | from fully procedural textures to material-groups for more complex surfaces |
-| `Project files` | complete data set, including geometry assets, textures ("painted"), camerass, and more |
+| `Lights` | e.g. improved defaults and custom lights (filters, effects and more) |
+| `Kernels` | e.g. improved defaults and custom kernels tailored to more specific situations (like caustics) |
+| `Materials` | e.g. fully procedural textures to material-groups for more complex surfaces |
+| `Project files` | complete "scene files" data set including geometry (assets), textures, cameras and more |
 
 ## Wiki
 Dedicated [Wiki page](https://github.com/skientia/ORBX/wiki).
