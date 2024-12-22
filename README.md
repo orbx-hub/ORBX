@@ -1,6 +1,26 @@
 # OctaneRender® ORBX File Repository
 
-skientia.co ORBX file reposity
+skientia.co ORBX file reposity for Octane Render, a spectral GPU renderer[^1]
+
+[^1]: Images and information from: [Octane Spectral GPU Path-traced Rendering](https://skientia.co/cgi/octane-render)
+
+<details>
+<summary> About The 3D File Format </summary>
+
+  ## ORBX
+  
+> OTOY releases OctaneRender™ 1.5 and introduces .ORBX (20, 2014) 
+The new .ORBX file format improves considerably on traditional 3D formats such as .OBJ, .CAD, or .STL, going beyond storing simple geometry to include all aspects of a 3D scene, such as materials, properties, textures, lighting, transform hierarchies and cameras, all in a self-contained file format. Unlike the Alembic file format, .ORBX was designed in close collaboration with Autodesk and Mozilla to be a flexible container for a wide range of uses beyond computer graphics, including video, 3D printing, holography, design and engineering.  
+
+> The .ORBX format allows for incredible granularity, supporting the modeling of physical properties of a scene or object down to two hundredths of a nanometer, or a quarter of the size of a hydrogen atom. OctaneRender™ 1.5 and related plugins allow artists and animators to perfectly import and export extraordinarily complex 3D scenes in .ORBX format across 15 modeling programs, appearing in the same final render quality as the program they were originally created in. The flexibility of the .ORBX format has implications for media and entertainment companies who can now effectively use their computer-generated assets and IP across a variety of mediums, from feature film and television development, to video games, web sites, and toy production for example.
+> The ORBX file format is the best way to transfer scene files from 3D Authoring software programs that use the Octane Plug-in such as Octane for Maya, Octane for Cinema 4D, or OctaneRender Standalone. This format is more efficient than FBX when working with Octane specific data as it provides a flexible, application independent format. ORBX is a container format that includes all animation data, models, textures etc. that is needed to transfer an Octane scene from one application to another.
+</details>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://images.squarespace-cdn.com/content/v1/608815d80fda1f2c79e48753/b5b55060-e5a1-4e98-aea0-23e54469c5e0/octane_spectral_rendering.jpg">
+  <source media="(prefers-color-scheme: light)" srcset="https://images.squarespace-cdn.com/content/v1/608815d80fda1f2c79e48753/6939c512-12d2-4368-a8ad-91704d72dcdf/octane_spectral_irradiance_mode.jpeg">
+  <img alt="Octane Render Thumbnail" src="https://images.squarespace-cdn.com/content/v1/608815d80fda1f2c79e48753/b5b55060-e5a1-4e98-aea0-23e54469c5e0/octane_spectral_rendering.jpg">
+</picture>
 
 ## Overview
 
@@ -36,11 +56,5 @@ Doing so does not substitute to download and placing the .orbx files or folders 
 - [x] Initiate porting to Github
 - [ ] Capitalization / Lowercase: [OTOY Forum](https://render.otoy.com/forum/viewtopic.php?f=32&t=84289#p436653) | status: TBD
 
-## About ORBX
-> OTOY releases OctaneRender™ 1.5 and introduces .ORBX (20, 2014) 
-The new .ORBX file format improves considerably on traditional 3D formats such as .OBJ, .CAD, or .STL, going beyond storing simple geometry to include all aspects of a 3D scene, such as materials, properties, textures, lighting, transform hierarchies and cameras, all in a self-contained file format. Unlike the Alembic file format, .ORBX was designed in close collaboration with Autodesk and Mozilla to be a flexible container for a wide range of uses beyond computer graphics, including video, 3D printing, holography, design and engineering. 
->
-> The .ORBX format allows for incredible granularity, supporting the modeling of physical properties of a scene or object down to two hundredths of a nanometer, or a quarter of the size of a hydrogen atom. OctaneRender™ 1.5 and related plugins allow artists and animators to perfectly import and export extraordinarily complex 3D scenes in .ORBX format across 15 modeling programs, appearing in the same final render quality as the program they were originally created in. The flexibility of the .ORBX format has implications for media and entertainment companies who can now effectively use their computer-generated assets and IP across a variety of mediums, from feature film and television development, to video games, web sites, and toy production for example.
-> The ORBX file format is the best way to transfer scene files from 3D Authoring software programs that use the Octane Plug-in such as Octane for Maya, Octane for Cinema 4D, or OctaneRender Standalone. This format is more efficient than FBX when working with Octane specific data as it provides a flexible, application independent format. ORBX is a container format that includes all animation data, models, textures etc. that is needed to transfer an Octane scene from one application to another. [Source)
-
 ## License
+MIT
