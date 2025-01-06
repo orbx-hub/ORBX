@@ -6,7 +6,7 @@
 > [!IMPORTANT]
 > Quick guide available [further down](https://github.com/skientia/ORBX/blob/main/Lights/preview.md#guide)
 
-ST, as in "standard" (stripped down to essentials) & XT for extended (shown below)
+ST, as in "Starter" (stripped down to essentials) & XT for extended (shown below)
 ![Area Light XT](https://images.squarespace-cdn.com/content/v1/608815d80fda1f2c79e48753/80447ea3-1dcd-4a21-91e5-8011ec48973a/area-light-extended-orbx.jpeg)
 
 ### Guide
