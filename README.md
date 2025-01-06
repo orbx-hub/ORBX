@@ -51,7 +51,3 @@ Doing so does not substitute to download and placing the .orbx files or folders 
 
 > [!IMPORTANT]
 > Plug-in users must refer to the dedcated Octane [plug-in host e.g. Octane for Blender] documentation for ORBX import information.
-
-## To-do
-- [x] Initiate porting to Github
-- [ ] Capitalization / Lowercase: [OTOY Forum](https://render.otoy.com/forum/viewtopic.php?f=32&t=84289#p436653) (status: TBD)
