@@ -51,3 +51,15 @@ Doing so does not substitute to download and placing the .orbx files or folders 
 
 > [!IMPORTANT]
 > Plug-in users must refer to the dedcated Octane [plug-in host e.g. Octane for Blender] documentation for ORBX import information.
+
+##  Legal
+
+Permissions
+* Commercial use
+* Modification
+* Distribution
+* Private use
+
+Limitations
+* Liability
+* Warranty
