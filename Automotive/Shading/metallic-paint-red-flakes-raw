@@ -1,0 +1,416 @@
+<?xml version='1.0' encoding='utf-8'?>
+<OCS2 version='14000011'>
+ <graph id='1' type='1' name='clipboard'>
+  <graph id='10975' type='1' name='metallic-paint-red-flakes' position='226.66666 0'>
+   <attr name='color' type='8'>1 0 0</attr>
+   <node id='10977' type='87' name='noise_texture_basic_orange_peel' position='94.914322 -54.230293'>
+    <pin name='power'>
+     <node id='10978' type='31'>
+      <attr name='value' type='6'>0.5</attr>
+     </node>
+    </pin>
+    <pin name='noiseType'>
+     <node id='10979' type='57'>
+      <attr name='value' type='2'>0</attr>
+     </node>
+    </pin>
+    <pin name='octaves'>
+     <node id='10980' type='9'>
+      <attr name='value' type='4'>10 0 0</attr>
+     </node>
+    </pin>
+    <pin name='omega'>
+     <node id='10981' type='6'>
+      <attr name='value' type='8'>0.67900002 0 0</attr>
+     </node>
+    </pin>
+    <pin name='transform'>
+     <node id='10982' type='67'>
+      <attr name='rotationOrder' type='2'>2</attr>
+      <attr name='rotation' type='8'>-0 0 0</attr>
+      <attr name='scale' type='8'>0.15000001 0.15000001 0.15000001</attr>
+      <attr name='translation' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='projection'>
+     <node id='10983' type='75'>
+      <pin name='positionType'>
+       <node id='10984' type='57'>
+        <attr name='value' type='2'>3</attr>
+       </node>
+      </pin>
+     </node>
+    </pin>
+    <pin name='invert'>
+     <node id='10985' type='11'>
+      <attr name='value' type='1'>0</attr>
+     </node>
+    </pin>
+    <pin name='gamma'>
+     <node id='10986' type='6'>
+      <attr name='value' type='8'>1 0 0</attr>
+     </node>
+    </pin>
+    <pin name='contrast'>
+     <node id='10987' type='6'>
+      <attr name='value' type='8'>0.1 0 0</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='10988' type='68' name='Note' position='-410.4223 240'>
+    <attr name='value' type='10'>Generated from Octane 2024.1
+
+NOTES:
+
+• Starting point basic gray metallic flakes car paint material
+• Flakes scale and UVW transform scale parameters are asset/UV dependent and should be scaled accordingly.
+• The higher the BLEND FACTOR, the less flakes will appear in the &quot;edges&quot;, usually yielding a more plausible result.
+• SPECULAR LAYER (coat) has a subtle amount of roughness (as always for nearly all surfaces)
+• Values shown here are only indicative and should be set according to real references and personal intentions.
+</attr>
+    <attr name='color' type='8'>1 0.8144787 0.24607331</attr>
+    <attr name='size' type='3'>694 23</attr>
+   </node>
+   <node id='10989' type='139' name='clear_coat' position='32.261169 46.24218'>
+    <attr name='compatibilityVersion' type='2'>12000102</attr>
+    <pin name='enabled'>
+     <node id='10990' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='specular'>
+     <node id='10991' type='33'>
+      <attr name='value' type='8'>0.89999998 0.89999998 0.89999998</attr>
+     </node>
+    </pin>
+    <pin name='transmission'>
+     <node id='10992' type='33'>
+      <attr name='value' type='8'>0.40000001 0.40000001 0.40000001</attr>
+     </node>
+    </pin>
+    <pin name='brdf'>
+     <node id='10993' type='57'>
+      <attr name='value' type='2'>6</attr>
+     </node>
+    </pin>
+    <pin name='roughness'>
+     <node id='10994' type='31'>
+      <attr name='value' type='6'>0.050000001</attr>
+     </node>
+    </pin>
+    <pin name='affectRoughness'>
+     <node id='10995' type='6'>
+      <attr name='value' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='anisotropy'>
+     <node id='10996' type='6'>
+      <attr name='value' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='rotation'>
+     <node id='10997' type='31'>
+      <attr name='value' type='6'>0</attr>
+     </node>
+    </pin>
+    <pin name='spread'>
+     <node id='10998' type='6'>
+      <attr name='value' type='8'>0.5 0 0</attr>
+     </node>
+    </pin>
+    <pin name='index'>
+     <node id='10999' type='6'>
+      <attr name='value' type='8'>1.5 0 0</attr>
+     </node>
+    </pin>
+    <pin name='hasCaustics'>
+     <node id='11000' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='filmwidth'>
+     <node id='11001' type='31'>
+      <attr name='value' type='6'>0</attr>
+     </node>
+    </pin>
+    <pin name='filmindex'>
+     <node id='11002' type='6'>
+      <attr name='value' type='8'>1.45 0 0</attr>
+     </node>
+    </pin>
+    <pin name='thinLayer'>
+     <node id='11003' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='bump' connect='11041'/>
+    <pin name='bumpHeight'>
+     <node id='11004' type='6'>
+      <attr name='value' type='8'>0.0099999998 0 0</attr>
+     </node>
+    </pin>
+    <pin name='dispersion_coefficient_B'>
+     <node id='11005' type='6'>
+      <attr name='value' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='dispersionMode'>
+     <node id='11006' type='57'>
+      <attr name='value' type='2'>2</attr>
+     </node>
+    </pin>
+    <pin name='opacity'>
+     <node id='11007' type='31'>
+      <attr name='value' type='6'>1</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='11008' type='32' name='gaussian-spectrum-red-base' position='-699.59583 51.804726'>
+    <pin name='wavelength'>
+     <node id='11009' type='31'>
+      <attr name='value' type='6'>0.80000001</attr>
+     </node>
+    </pin>
+    <pin name='width'>
+     <node id='11010' type='31'>
+      <attr name='value' type='6'>0.045000002</attr>
+     </node>
+    </pin>
+    <pin name='power'>
+     <node id='11011' type='31'>
+      <attr name='value' type='6'>0.5</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='11012' type='120' name='metallic-flakes-rough-base' position='-431.59583 100.14133'>
+    <attr name='compatibilityVersion' type='2'>12000102</attr>
+    <pin name='specular' connect='11008'/>
+    <pin name='edgeTint'>
+     <node id='11013' type='33'>
+      <attr name='value' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='brdf'>
+     <node id='11014' type='57'>
+      <attr name='value' type='2'>6</attr>
+     </node>
+    </pin>
+    <pin name='roughness'>
+     <node id='11015' type='31'>
+      <attr name='value' type='6'>0.40000001</attr>
+     </node>
+    </pin>
+    <pin name='anisotropy'>
+     <node id='11016' type='6'>
+      <attr name='value' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='rotation'>
+     <node id='11017' type='31'>
+      <attr name='value' type='6'>0</attr>
+     </node>
+    </pin>
+    <pin name='spread'>
+     <node id='11018' type='6'>
+      <attr name='value' type='8'>0.5 0 0</attr>
+     </node>
+    </pin>
+    <pin name='metallicMode'>
+     <node id='11019' type='57'>
+      <attr name='value' type='2'>0</attr>
+     </node>
+    </pin>
+    <pin name='index'>
+     <node id='11020' type='6'>
+      <attr name='value' type='8'>1.4 0 0</attr>
+     </node>
+    </pin>
+    <pin name='index2'>
+     <node id='11021' type='6'>
+      <attr name='value' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='index3'>
+     <node id='11022' type='6'>
+      <attr name='value' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='hasCaustics'>
+     <node id='11023' type='11'>
+      <attr name='value' type='1'>0</attr>
+     </node>
+    </pin>
+    <pin name='sheen'>
+     <node id='11024' type='33'>
+      <attr name='value' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='sheenRoughness'>
+     <node id='11025' type='31'>
+      <attr name='value' type='6'>0.2</attr>
+     </node>
+    </pin>
+    <pin name='filmwidth'>
+     <node id='11026' type='31'>
+      <attr name='value' type='6'>0</attr>
+     </node>
+    </pin>
+    <pin name='filmindex'>
+     <node id='11027' type='6'>
+      <attr name='value' type='8'>1.45 0 0</attr>
+     </node>
+    </pin>
+    <pin name='opacity'>
+     <node id='11028' type='31'>
+      <attr name='value' type='6'>1</attr>
+     </node>
+    </pin>
+    <pin name='bumpHeight'>
+     <node id='11029' type='6'>
+      <attr name='value' type='8'>0.0099999998 0 0</attr>
+     </node>
+    </pin>
+    <pin name='normal' connect='11049'/>
+    <pin name='smooth'>
+     <node id='11030' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='smoothShadowTerminator'>
+     <node id='11031' type='11'>
+      <attr name='value' type='1'>0</attr>
+     </node>
+    </pin>
+    <pin name='roundEdges'>
+     <node id='11032' type='137'>
+      <attr name='compatibilityVersion' type='2'>12000102</attr>
+      <pin name='roundEdgesMode'>
+       <node id='11033' type='57'>
+        <attr name='value' type='2'>0</attr>
+       </node>
+      </pin>
+      <pin name='roundEdgesRadius'>
+       <node id='11034' type='6'>
+        <attr name='value' type='8'>0 0 0</attr>
+       </node>
+      </pin>
+      <pin name='roundEdgesCurvatureRoundness'>
+       <node id='11035' type='6'>
+        <attr name='value' type='8'>1 0 0</attr>
+       </node>
+      </pin>
+      <pin name='roundEdgesSampleCount'>
+       <node id='11036' type='9'>
+        <attr name='value' type='4'>8 0 0</attr>
+       </node>
+      </pin>
+      <pin name='roundEdgesConsiderOtherObjects'>
+       <node id='11037' type='11'>
+        <attr name='value' type='1'>0</attr>
+       </node>
+      </pin>
+     </node>
+    </pin>
+    <pin name='priority'>
+     <node id='11038' type='9'>
+      <attr name='value' type='4'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='customAov'>
+     <node id='11039' type='57'>
+      <attr name='value' type='2'>4096</attr>
+     </node>
+    </pin>
+    <pin name='customAovChannel'>
+     <node id='11040' type='57'>
+      <attr name='value' type='2'>0</attr>
+     </node>
+    </pin>
+    <pin name='layer' connect='10989'/>
+   </node>
+   <node id='11041' type='334' name='range_control' position='158.46802 -4.207222'>
+    <attr name='compatibilityVersion' type='2'>13000009</attr>
+    <pin name='input' connect='10977'/>
+    <pin name='interpolationType'>
+     <node id='11042' type='57'>
+      <attr name='value' type='2'>0</attr>
+     </node>
+    </pin>
+    <pin name='inputMin'>
+     <node id='11043' type='31'>
+      <attr name='value' type='6'>0</attr>
+     </node>
+    </pin>
+    <pin name='inputMax'>
+     <node id='11044' type='31'>
+      <attr name='value' type='6'>1</attr>
+     </node>
+    </pin>
+    <pin name='outputMin'>
+     <node id='11045' type='31'>
+      <attr name='value' type='6'>0</attr>
+     </node>
+    </pin>
+    <pin name='outputMax'>
+     <node id='11046' type='31'>
+      <attr name='value' type='6'>0.025</attr>
+     </node>
+    </pin>
+    <pin name='interpolationSteps'>
+     <node id='11047' type='9'>
+      <attr name='value' type='4'>8 0 0</attr>
+     </node>
+    </pin>
+    <pin name='clamp'>
+     <node id='11048' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='11049' type='267' name='Flakes' position='-298.59579 58.554726'>
+    <pin name='texture'>
+     <node id='11050' type='33'>
+      <attr name='value' type='8'>0.5 0.5 1</attr>
+     </node>
+    </pin>
+    <pin name='size'>
+     <node id='11051' type='6'>
+      <attr name='value' type='8'>1 0 0</attr>
+     </node>
+    </pin>
+    <pin name='variance'>
+     <node id='11052' type='6'>
+      <attr name='value' type='8'>1 0 0</attr>
+     </node>
+    </pin>
+    <pin name='blendFactor'>
+     <node id='11053' type='6'>
+      <attr name='value' type='8'>0.82500005 0 0</attr>
+     </node>
+    </pin>
+    <pin name='transform'>
+     <node id='11054' type='67'>
+      <attr name='rotationOrder' type='2'>2</attr>
+      <attr name='rotation' type='8'>-0 0 0</attr>
+      <attr name='scale' type='8'>0.0099999998 0.0099999998 0.0099999998</attr>
+      <attr name='translation' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='projection'>
+     <node id='11055' type='75'>
+      <pin name='positionType'>
+       <node id='11056' type='57'>
+        <attr name='value' type='2'>3</attr>
+       </node>
+      </pin>
+     </node>
+    </pin>
+   </node>
+   <node id='10976' type='30007' name='car-paint-metallic-red-flakes' position='-434.99243 187.91016'>
+    <attr name='group' type='10'></attr>
+    <attr name='description' type='10'></attr>
+    <pin name='input' connect='11012'/>
+   </node>
+  </graph>
+ </graph>
+</OCS2>
