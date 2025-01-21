@@ -4,7 +4,7 @@
 ### ORBX Preview in Octane Standalone
 
 > [!IMPORTANT]
-> Quick guide available [further down]().  
+> Quick guide available [further down](https://github.com/skientia/ORBX/tree/main/Shading/Materials/NewDefaults#guide).  
 > Further reading available [here](https://skientia.co/cgi/octane-orbx).
 
 A set of improved defaults of the base Octane materials. Materials include:
