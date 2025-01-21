@@ -10,10 +10,10 @@
 
 ### Universal Shading Suggestions
 * Mostly the normal and anisotropy maps are needed
-* Highly reflective glossy base material or metallic, über material in this example
-* Increased roughness to 20% to 60% range
-* Anisotropy texture plugged to the eponymous slot (optional)
-* Coat layer with, simply said, “thickness” or “edge darkening” effect (a darker transmission in Octane)
+* Highly "reflective" base material, über "Universal Material" as shown
+* Increased roughness to around 20-60% range, necessary for anisotropy to take effect
+* Anisotropy texture plugged to the eponymous slot, optional
+* Coat layer with, simply put, “thickness” or “edge darkening” effect, achieved via a darker transmission
 * Optional "[surface imperfections](https://skientia.co/cgi/octane-automotive-imperfections)" added to the coat “layer” (within the über material or a separated coat layer depending on the renderer or personal shading preferences)
 
 ![Preview](https://images.squarespace-cdn.com/content/v1/608815d80fda1f2c79e48753/4d0c5044-c694-4107-a798-219e21c613b5/octane-carbon-fiber-texture-files-demo-usd-gw.jpeg?format=2500w)
