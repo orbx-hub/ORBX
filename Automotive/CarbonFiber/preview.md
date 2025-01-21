@@ -1,13 +1,14 @@
-# OctaneRender® ORBX
-
-## TIFF Texture Files & ORBX Shading
-### ORBX Preview in Octane Standalone
+# Texture Files & OctaneRender® ORBX
 
 > [!IMPORTANT]
 > Quick guide available [further down]().  
 > Further reading available [here](https://skientia.co/cgi/octane-orbx).
 
-## Universal Shading Suggestions
+## Carbon Fiber Texture Files
+* An outdated, non-optimized but usable set of free download, for commercial use and royalty-free of JPG and TIFF texture files created in Substance Designer. 
+* An bonus Octane ORBX material setup
+
+# Universal Suggestions
 * Mostly the normal and anisotropy maps are needed
 * Highly reflective glossy base material or metallic, über material in this example
 * Increased roughness to 20% to 60% range
