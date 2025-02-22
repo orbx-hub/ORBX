@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='utf-8'?>
+<OCS2 version='14000011'>
+ <graph id='1' type='1' name='clipboard'>
+  <graph id='4' type='1' name='Diffuse_NewDefaults' position='-273.80002 -8'>
+   <attr name='color' type='8'>1 1 1</attr>
+   <node id='5' type='31' name='Reflection-float' position='7.5999756 -91.899994'>
+    <attr name='value' type='6'>1</attr>
+   </node>
+   <node id='6' type='57' name='GGX-energy-preserving' position='46.599976 -157.89999'>
+    <attr name='value' type='2'>6</attr>
+   </node>
+   <node id='7' type='144' name='Material layer group' position='187.59998 22.099998'>
+    <attr name='pin_count' type='2'>1</attr>
+    <pin name='Layer 1' dynamicType='33' connect='27'/>
+   </node>
+   <node id='8' type='17' name='Diffuse material' position='-92.400024 78.599998'>
+    <attr name='compatibilityVersion' type='2'>14000011</attr>
+    <pin name='diffuse'>
+     <node id='9' type='33'>
+      <attr name='value' type='8'>0.18000001 0.18000001 0.18000001</attr>
+     </node>
+    </pin>
+    <pin name='diffuseBrdf'>
+     <node id='10' type='57'>
+      <attr name='value' type='2'>2</attr>
+     </node>
+    </pin>
+    <pin name='roughness'>
+     <node id='11' type='31'>
+      <attr name='value' type='6'>0</attr>
+     </node>
+    </pin>
+    <pin name='opacity'>
+     <node id='12' type='31'>
+      <attr name='value' type='6'>1</attr>
+     </node>
+    </pin>
+    <pin name='bumpHeight'>
+     <node id='13' type='6'>
+      <attr name='value' type='8'>0.001 0 0</attr>
+     </node>
+    </pin>
+    <pin name='smooth'>
+     <node id='14' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='smoothShadowTerminator'>
+     <node id='15' type='11'>
+      <attr name='value' type='1'>0</attr>
+     </node>
+    </pin>
+    <pin name='roundEdges'>
+     <node id='16' type='137'>
+      <attr name='compatibilityVersion' type='2'>14000011</attr>
+      <pin name='roundEdgesMode'>
+       <node id='17' type='57'>
+        <attr name='value' type='2'>0</attr>
+       </node>
+      </pin>
+      <pin name='roundEdgesRadius'>
+       <node id='18' type='6'>
+        <attr name='value' type='8'>0 0 0</attr>
+       </node>
+      </pin>
+      <pin name='roundEdgesCurvatureRoundness'>
+       <node id='19' type='6'>
+        <attr name='value' type='8'>1 0 0</attr>
+       </node>
+      </pin>
+      <pin name='roundEdgesSampleCount'>
+       <node id='20' type='9'>
+        <attr name='value' type='4'>8 0 0</attr>
+       </node>
+      </pin>
+      <pin name='roundEdgesConsiderOtherObjects'>
+       <node id='21' type='11'>
+        <attr name='value' type='1'>0</attr>
+       </node>
+      </pin>
+     </node>
+    </pin>
+    <pin name='priority'>
+     <node id='22' type='9'>
+      <attr name='value' type='4'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='matte'>
+     <node id='23' type='11'>
+      <attr name='value' type='1'>0</attr>
+     </node>
+    </pin>
+    <pin name='customAov'>
+     <node id='24' type='57'>
+      <attr name='value' type='2'>4096</attr>
+     </node>
+    </pin>
+    <pin name='customAovChannel'>
+     <node id='25' type='57'>
+      <attr name='value' type='2'>0</attr>
+     </node>
+    </pin>
+    <pin name='layer' connect='7'/>
+   </node>
+   <node id='26' type='31' name='Roughness-float' position='67.599976 -126.9'>
+    <attr name='value' type='6'>0.001</attr>
+   </node>
+   <node id='27' type='139' name='Specular layer' position='187.59998 -34.400002'>
+    <attr name='compatibilityVersion' type='2'>14000011</attr>
+    <pin name='enabled' connect='43'/>
+    <pin name='specular' connect='5'/>
+    <pin name='transmission'>
+     <node id='28' type='33'>
+      <attr name='value' type='8'>0.89999998 0.89999998 0.89999998</attr>
+     </node>
+    </pin>
+    <pin name='brdf' connect='6'/>
+    <pin name='roughness' connect='26'/>
+    <pin name='affectRoughness'>
+     <node id='29' type='6'>
+      <attr name='value' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='anisotropy'>
+     <node id='30' type='6'>
+      <attr name='value' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='rotation'>
+     <node id='31' type='31'>
+      <attr name='value' type='6'>0</attr>
+     </node>
+    </pin>
+    <pin name='spread'>
+     <node id='32' type='6'>
+      <attr name='value' type='8'>0.5 0 0</attr>
+     </node>
+    </pin>
+    <pin name='index'>
+     <node id='33' type='6'>
+      <attr name='value' type='8'>1.5 0 0</attr>
+     </node>
+    </pin>
+    <pin name='hasCaustics'>
+     <node id='34' type='11'>
+      <attr name='value' type='1'>0</attr>
+     </node>
+    </pin>
+    <pin name='filmwidth'>
+     <node id='35' type='31'>
+      <attr name='value' type='6'>0</attr>
+     </node>
+    </pin>
+    <pin name='filmindex'>
+     <node id='36' type='6'>
+      <attr name='value' type='8'>1.45 0 0</attr>
+     </node>
+    </pin>
+    <pin name='thinLayer'>
+     <node id='37' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='bumpHeight'>
+     <node id='38' type='6'>
+      <attr name='value' type='8'>0.001 0 0</attr>
+     </node>
+    </pin>
+    <pin name='dispersion_coefficient_B'>
+     <node id='39' type='6'>
+      <attr name='value' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='dispersionMode'>
+     <node id='40' type='57'>
+      <attr name='value' type='2'>1</attr>
+     </node>
+    </pin>
+    <pin name='opacity'>
+     <node id='41' type='31'>
+      <attr name='value' type='6'>1</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='42' type='68' name='Note' position='-0.40002441 141.60001'>
+    <attr name='value' type='10'>IMPROVED BASE MATERIAL DEFAULTS (generated ORBX from Octane 2024.1)
+
+Intended to provide an improved &quot;new defaults&quot; on materials, such as enabled &quot;GGX energy Preserving&quot; and a material layer approach for more controls and flexibility.
+
+NOTES:
+• Here, the material layer set to Specular acts as a reflection coat for the &quot;Diffuse Material&quot; underneath. This setup provides a way to add reflection to the Diffuse Material, resulting in the Glossy Material.
+
+• The material &quot;color&quot; is set to a &quot;0.18 middle gray&quot; instead of the default 0.7 (white).</attr>
+    <attr name='color' type='8'>1 0.8144787 0.24607331</attr>
+    <attr name='size' type='3'>580 23</attr>
+   </node>
+   <node id='43' type='11' name='enable-disable' position='-130.40002 -90.900002'>
+    <attr name='value' type='1'>1</attr>
+   </node>
+  </graph>
+ </graph>
+</OCS2>
