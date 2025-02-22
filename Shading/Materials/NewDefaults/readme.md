@@ -13,7 +13,7 @@ A set of improved defaults of the base Octane materials. Materials include:
 * Improved Octane's Specular Material
 and more.
 
-![Preview]()
+Mainly consisting of switching all materials to "GGX energy preserving", a middle-gray value as the "base color" and material layer method for coat on single-lobe materials such as the Diffuse Material, or Specular (the material layer reflection becomes independant from the specular roughness, the coat can be made rough while the refraction "clear, see-through".
 
 ### Guide
 1. Available as direct `raw code` via copy / paste ([raw button location](https://docs.github.com/assets/cb-67542/mw-1440/images/help/repository/raw-file-button.webp)).
