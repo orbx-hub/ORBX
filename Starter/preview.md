@@ -4,7 +4,7 @@
 ### Octane Standalone Preview
 
 > [!IMPORTANT]
-> Quick guide available [further down](https://github.com/skientia/ORBX/blob/main/Lights/preview.md#guide).  
+> Quick guide available [further down](https://github.com/skientia/ORBX/blob/main/Starter/preview.md#guide).  
 > Further reading available [here](https://skientia.co/cgi/octane-orbx).
 
 A project file starter with rudimentary elements such as geometry primitives (plane and sphere) both with middle gray materials (according to AgX Base sRGB) and more appropriate Path Tracing kernel settings. 
