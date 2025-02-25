@@ -16,7 +16,7 @@
 * Coat layer with, simply put, “thickness” or “edge darkening” effect, achieved via a darker transmission
 * Optional "[surface imperfections](https://skientia.co/cgi/octane-automotive-imperfections)" added to the coat “layer” (within the über material or a separated coat layer depending on the renderer or personal shading preferences)
 
-![Preview](https://images.squarespace-cdn.com/content/v1/608815d80fda1f2c79e48753/4d0c5044-c694-4107-a798-219e21c613b5/octane-carbon-fiber-texture-files-demo-usd-gw.jpeg?format=2500w)
+![Preview](https://images.squarespace-cdn.com/content/v1/608815d80fda1f2c79e48753/5a910eca-d724-40d8-8975-826bbda03f8e/octane-carbon-fiber-orbx.jpeg)
 
 ### Guide
 1. Available as direct `raw code` via copy / paste ([raw button location](https://docs.github.com/assets/cb-67542/mw-1440/images/help/repository/raw-file-button.webp)).
