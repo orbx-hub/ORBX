@@ -1,0 +1,3499 @@
+<?xml version='1.0' encoding='utf-8'?>
+<OCS2 version='14000011'>
+ <graph id='1' type='1' name='clipboard'>
+  <graph id='2' type='1' name='sss_starter_materials_v1_sans_textures' position='215.18185 106.18179'>
+   <attr name='color' type='8'>1 1 1</attr>
+   <node id='3' type='68' name='Note' position='-15.246719 -213.91037'>
+    <attr name='value' type='10'>SSS is OBJECT SCALE and THICKNESS dependant. Therefore, must be adjusted accordingly:
+- Medium Random Walk DENSITY
+- SSS Radius
+
+Path Tracing is recommended. Materials are starting-point, not &quot;scientifically accurate&quot; but plausible.
+
+Generated from Octane v2023.1.2, updated in 2024.1</attr>
+    <attr name='color' type='8'>0.5 0.5 0.5</attr>
+    <attr name='size' type='3'>387 23</attr>
+   </node>
+   <graph id='4' type='1' name='dark_purple' position='-140.90646 -37.410431'>
+    <attr name='color' type='8'>1 1 1</attr>
+    <node id='6' type='33' name='transmission_rgb_color' position='-462.75 -9.4038696'>
+     <attr name='value' type='8'>0.11931967 0.16931517 0.33393162</attr>
+    </node>
+    <node id='7' type='130' name='Universal material' position='120 40'>
+     <attr name='compatibilityVersion' type='2'>12000102</attr>
+     <pin name='transmission' connect='6'/>
+     <pin name='transmissionType'>
+      <node id='8' type='57'>
+       <attr name='value' type='2'>1</attr>
+      </node>
+     </pin>
+     <pin name='albedo' connect='50'/>
+     <pin name='diffuseBrdf'>
+      <node id='9' type='57'>
+       <attr name='value' type='2'>1</attr>
+      </node>
+     </pin>
+     <pin name='metallic'>
+      <node id='10' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='edgeTint'>
+      <node id='11' type='33'>
+       <attr name='value' type='8'>1 1 1</attr>
+      </node>
+     </pin>
+     <pin name='specular'>
+      <node id='12' type='31'>
+       <attr name='value' type='6'>0.22400001</attr>
+      </node>
+     </pin>
+     <pin name='brdf'>
+      <node id='13' type='57'>
+       <attr name='value' type='2'>6</attr>
+      </node>
+     </pin>
+     <pin name='roughness'>
+      <node id='14' type='31'>
+       <attr name='value' type='6'>0.19599999</attr>
+      </node>
+     </pin>
+     <pin name='anisotropy'>
+      <node id='15' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='rotation'>
+      <node id='16' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='spread'>
+      <node id='17' type='6'>
+       <attr name='value' type='8'>0.5 0 0</attr>
+      </node>
+     </pin>
+     <pin name='index4'>
+      <node id='18' type='6'>
+       <attr name='value' type='8'>1.5 0 0</attr>
+      </node>
+     </pin>
+     <pin name='metallicMode'>
+      <node id='19' type='57'>
+       <attr name='value' type='2'>0</attr>
+      </node>
+     </pin>
+     <pin name='index'>
+      <node id='20' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='index2'>
+      <node id='21' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='index3'>
+      <node id='22' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='hasCaustics'>
+      <node id='23' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='coating'>
+      <node id='24' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='coatingRoughness'>
+      <node id='25' type='31'>
+       <attr name='value' type='6'>0.461</attr>
+      </node>
+     </pin>
+     <pin name='coatingIndex'>
+      <node id='26' type='6'>
+       <attr name='value' type='8'>1.3200001 0 0</attr>
+      </node>
+     </pin>
+     <pin name='filmwidth'>
+      <node id='27' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='filmindex'>
+      <node id='28' type='6'>
+       <attr name='value' type='8'>1.45 0 0</attr>
+      </node>
+     </pin>
+     <pin name='sheen'>
+      <node id='29' type='33'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='sheenRoughness'>
+      <node id='30' type='31'>
+       <attr name='value' type='6'>0.2</attr>
+      </node>
+     </pin>
+     <pin name='dispersion_coefficient_B'>
+      <node id='31' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='dispersionMode'>
+      <node id='32' type='57'>
+       <attr name='value' type='2'>2</attr>
+      </node>
+     </pin>
+     <pin name='medium' connect='51'/>
+     <pin name='opacity'>
+      <node id='33' type='31'>
+       <attr name='value' type='6'>1</attr>
+      </node>
+     </pin>
+     <pin name='fake_shadows'>
+      <node id='34' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='refractionAlpha'>
+      <node id='35' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='bumpHeight'>
+      <node id='36' type='6'>
+       <attr name='value' type='8'>0.0099999998 0 0</attr>
+      </node>
+     </pin>
+     <pin name='smooth'>
+      <node id='37' type='11'>
+       <attr name='value' type='1'>1</attr>
+      </node>
+     </pin>
+     <pin name='smoothShadowTerminator'>
+      <node id='38' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='roundEdges'>
+      <node id='39' type='137'>
+       <attr name='compatibilityVersion' type='2'>12000102</attr>
+       <pin name='roundEdgesMode'>
+        <node id='40' type='57'>
+         <attr name='value' type='2'>1</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesRadius'>
+        <node id='41' type='6'>
+         <attr name='value' type='8'>0 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesCurvatureRoundness'>
+        <node id='42' type='6'>
+         <attr name='value' type='8'>1 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesSampleCount'>
+        <node id='43' type='9'>
+         <attr name='value' type='4'>8 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesConsiderOtherObjects'>
+        <node id='44' type='11'>
+         <attr name='value' type='1'>0</attr>
+        </node>
+       </pin>
+      </node>
+     </pin>
+     <pin name='priority'>
+      <node id='45' type='9'>
+       <attr name='value' type='4'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='matte'>
+      <node id='46' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='customAov'>
+      <node id='47' type='57'>
+       <attr name='value' type='2'>4096</attr>
+      </node>
+     </pin>
+     <pin name='customAovChannel'>
+      <node id='48' type='57'>
+       <attr name='value' type='2'>0</attr>
+      </node>
+     </pin>
+     <pin name='layer'>
+      <node id='49' type='144'>
+       <attr name='pin_count' type='2'>0</attr>
+      </node>
+     </pin>
+    </node>
+    <node id='50' type='33' name='base_rgb_color' position='-320 -11.1987'>
+     <attr name='value' type='8'>0.0084004384 0.0082270401 0.004679821</attr>
+    </node>
+    <node id='51' type='146' name='Random walk' position='280 -14'>
+     <attr name='compatibilityVersion' type='2'>13000200</attr>
+     <attr name='volumeUsePercentageStep' type='1'>0</attr>
+     <pin name='scale'>
+      <node id='52' type='6'>
+       <attr name='value' type='8'>50 0 0</attr>
+      </node>
+     </pin>
+     <pin name='rayMarchStepPercent'>
+      <node id='53' type='6'>
+       <attr name='value' type='8'>4 0 0</attr>
+      </node>
+     </pin>
+     <pin name='shadowRayMarchStepPercent'>
+      <node id='54' type='6'>
+       <attr name='value' type='8'>4 0 0</attr>
+      </node>
+     </pin>
+     <pin name='useRayStepLengthForShadowRays'>
+      <node id='55' type='11'>
+       <attr name='value' type='1'>1</attr>
+      </node>
+     </pin>
+     <pin name='singleScatterFactor'>
+      <node id='56' type='6'>
+       <attr name='value' type='8'>1 0 0</attr>
+      </node>
+     </pin>
+     <pin name='volumePadding'>
+      <node id='57' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='albedo'>
+      <node id='58' type='33'>
+       <attr name='value' type='8'>0.82198948 0.44820011 0.24741884</attr>
+      </node>
+     </pin>
+     <pin name='radius'>
+      <node id='59' type='33'>
+       <attr name='value' type='8'>0.80104709 0.29622775 0.047585461</attr>
+      </node>
+     </pin>
+     <pin name='bias'>
+      <node id='60' type='6'>
+       <attr name='value' type='8'>0.156 0 0</attr>
+      </node>
+     </pin>
+    </node>
+    <node id='5' type='30007' name='Universal material' position='120 80'>
+     <attr name='group' type='10'></attr>
+     <attr name='description' type='10'></attr>
+     <pin name='input' connect='7'/>
+    </node>
+   </graph>
+   <graph id='61' type='1' name='plastic_color' position='-99.506805 45.12149'>
+    <attr name='color' type='8'>1 1 1</attr>
+    <node id='63' type='130' name='plastic_toy_sss' position='55.405273 43.640518'>
+     <attr name='compatibilityVersion' type='2'>12000102</attr>
+     <pin name='transmission' connect='106'/>
+     <pin name='transmissionType'>
+      <node id='64' type='57'>
+       <attr name='value' type='2'>1</attr>
+      </node>
+     </pin>
+     <pin name='albedo' connect='123'/>
+     <pin name='diffuseBrdf'>
+      <node id='65' type='57'>
+       <attr name='value' type='2'>2</attr>
+      </node>
+     </pin>
+     <pin name='metallic'>
+      <node id='66' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='edgeTint'>
+      <node id='67' type='33'>
+       <attr name='value' type='8'>1 1 1</attr>
+      </node>
+     </pin>
+     <pin name='specular'>
+      <node id='68' type='31'>
+       <attr name='value' type='6'>1</attr>
+      </node>
+     </pin>
+     <pin name='brdf'>
+      <node id='69' type='57'>
+       <attr name='value' type='2'>6</attr>
+      </node>
+     </pin>
+     <pin name='roughness'>
+      <node id='70' type='31'>
+       <attr name='value' type='6'>0.30000001</attr>
+      </node>
+     </pin>
+     <pin name='anisotropy'>
+      <node id='71' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='rotation'>
+      <node id='72' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='spread'>
+      <node id='73' type='6'>
+       <attr name='value' type='8'>0.5 0 0</attr>
+      </node>
+     </pin>
+     <pin name='index4'>
+      <node id='74' type='6'>
+       <attr name='value' type='8'>1.5 0 0</attr>
+      </node>
+     </pin>
+     <pin name='metallicMode'>
+      <node id='75' type='57'>
+       <attr name='value' type='2'>0</attr>
+      </node>
+     </pin>
+     <pin name='index'>
+      <node id='76' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='index2'>
+      <node id='77' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='index3'>
+      <node id='78' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='hasCaustics'>
+      <node id='79' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='coating'>
+      <node id='80' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='coatingRoughness'>
+      <node id='81' type='31'>
+       <attr name='value' type='6'>0.25</attr>
+      </node>
+     </pin>
+     <pin name='coatingIndex'>
+      <node id='82' type='6'>
+       <attr name='value' type='8'>1.45 0 0</attr>
+      </node>
+     </pin>
+     <pin name='filmwidth'>
+      <node id='83' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='filmindex'>
+      <node id='84' type='6'>
+       <attr name='value' type='8'>1.45 0 0</attr>
+      </node>
+     </pin>
+     <pin name='sheen'>
+      <node id='85' type='33'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='sheenRoughness'>
+      <node id='86' type='31'>
+       <attr name='value' type='6'>0.2</attr>
+      </node>
+     </pin>
+     <pin name='dispersion_coefficient_B'>
+      <node id='87' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='dispersionMode'>
+      <node id='88' type='57'>
+       <attr name='value' type='2'>2</attr>
+      </node>
+     </pin>
+     <pin name='medium' connect='110'/>
+     <pin name='opacity'>
+      <node id='89' type='31'>
+       <attr name='value' type='6'>1</attr>
+      </node>
+     </pin>
+     <pin name='fake_shadows'>
+      <node id='90' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='refractionAlpha'>
+      <node id='91' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='bumpHeight'>
+      <node id='92' type='6'>
+       <attr name='value' type='8'>0.0099999998 0 0</attr>
+      </node>
+     </pin>
+     <pin name='smooth'>
+      <node id='93' type='11'>
+       <attr name='value' type='1'>1</attr>
+      </node>
+     </pin>
+     <pin name='smoothShadowTerminator'>
+      <node id='94' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='roundEdges'>
+      <node id='95' type='137'>
+       <attr name='compatibilityVersion' type='2'>12000102</attr>
+       <pin name='roundEdgesMode'>
+        <node id='96' type='57'>
+         <attr name='value' type='2'>1</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesRadius'>
+        <node id='97' type='6'>
+         <attr name='value' type='8'>0 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesCurvatureRoundness'>
+        <node id='98' type='6'>
+         <attr name='value' type='8'>1 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesSampleCount'>
+        <node id='99' type='9'>
+         <attr name='value' type='4'>8 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesConsiderOtherObjects'>
+        <node id='100' type='11'>
+         <attr name='value' type='1'>0</attr>
+        </node>
+       </pin>
+      </node>
+     </pin>
+     <pin name='priority'>
+      <node id='101' type='9'>
+       <attr name='value' type='4'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='matte'>
+      <node id='102' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='customAov'>
+      <node id='103' type='57'>
+       <attr name='value' type='2'>4096</attr>
+      </node>
+     </pin>
+     <pin name='customAovChannel'>
+      <node id='104' type='57'>
+       <attr name='value' type='2'>0</attr>
+      </node>
+     </pin>
+     <pin name='layer'>
+      <node id='105' type='144'>
+       <attr name='pin_count' type='2'>0</attr>
+      </node>
+     </pin>
+    </node>
+    <node id='106' type='32' name='Gaussian spectrum' position='-440 0'>
+     <pin name='wavelength'>
+      <node id='107' type='31'>
+       <attr name='value' type='6'>0.85000002</attr>
+      </node>
+     </pin>
+     <pin name='width'>
+      <node id='108' type='31'>
+       <attr name='value' type='6'>0.15000001</attr>
+      </node>
+     </pin>
+     <pin name='power'>
+      <node id='109' type='31'>
+       <attr name='value' type='6'>0.40000001</attr>
+      </node>
+     </pin>
+    </node>
+    <node id='110' type='146' name='Random walk' position='240 -23'>
+     <attr name='compatibilityVersion' type='2'>13000200</attr>
+     <attr name='volumeUsePercentageStep' type='1'>0</attr>
+     <pin name='scale'>
+      <node id='111' type='6'>
+       <attr name='value' type='8'>30 0 0</attr>
+      </node>
+     </pin>
+     <pin name='rayMarchStepPercent'>
+      <node id='112' type='6'>
+       <attr name='value' type='8'>4 0 0</attr>
+      </node>
+     </pin>
+     <pin name='shadowRayMarchStepPercent'>
+      <node id='113' type='6'>
+       <attr name='value' type='8'>4 0 0</attr>
+      </node>
+     </pin>
+     <pin name='useRayStepLengthForShadowRays'>
+      <node id='114' type='11'>
+       <attr name='value' type='1'>1</attr>
+      </node>
+     </pin>
+     <pin name='singleScatterFactor'>
+      <node id='115' type='6'>
+       <attr name='value' type='8'>100 0 0</attr>
+      </node>
+     </pin>
+     <pin name='volumePadding'>
+      <node id='116' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='albedo'>
+      <node id='117' type='33'>
+       <attr name='value' type='8'>1 0.94385272 0.89978504</attr>
+      </node>
+     </pin>
+     <pin name='radius' connect='119'/>
+     <pin name='bias'>
+      <node id='118' type='6'>
+       <attr name='value' type='8'>0.80500007 0 0</attr>
+      </node>
+     </pin>
+    </node>
+    <node id='119' type='32' name='Gaussian spectrum' position='229 -81'>
+     <pin name='wavelength'>
+      <node id='120' type='31'>
+       <attr name='value' type='6'>0.85000002</attr>
+      </node>
+     </pin>
+     <pin name='width'>
+      <node id='121' type='31'>
+       <attr name='value' type='6'>0.1</attr>
+      </node>
+     </pin>
+     <pin name='power'>
+      <node id='122' type='31'>
+       <attr name='value' type='6'>0.60000002</attr>
+      </node>
+     </pin>
+    </node>
+    <node id='123' type='32' name='Gaussian spectrum' position='-384 -103'>
+     <pin name='wavelength'>
+      <node id='124' type='31'>
+       <attr name='value' type='6'>0.85000002</attr>
+      </node>
+     </pin>
+     <pin name='width'>
+      <node id='125' type='31'>
+       <attr name='value' type='6'>0.1</attr>
+      </node>
+     </pin>
+     <pin name='power'>
+      <node id='126' type='31'>
+       <attr name='value' type='6'>0.60000002</attr>
+      </node>
+     </pin>
+    </node>
+    <node id='62' type='30007' name='Universal material' position='-110.23608 143.64052'>
+     <attr name='group' type='10'></attr>
+     <attr name='description' type='10'></attr>
+     <pin name='input' connect='63'/>
+    </node>
+   </graph>
+   <graph id='127' type='1' name='choco' position='32.55246 3.7350159'>
+    <attr name='color' type='8'>1 1 1</attr>
+    <node id='129' type='130' name='Universal material' position='111.75 34.8013'>
+     <attr name='compatibilityVersion' type='2'>12000102</attr>
+     <pin name='transmission' connect='172'/>
+     <pin name='transmissionType'>
+      <node id='130' type='57'>
+       <attr name='value' type='2'>1</attr>
+      </node>
+     </pin>
+     <pin name='albedo' connect='173'/>
+     <pin name='diffuseBrdf'>
+      <node id='131' type='57'>
+       <attr name='value' type='2'>1</attr>
+      </node>
+     </pin>
+     <pin name='metallic'>
+      <node id='132' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='edgeTint'>
+      <node id='133' type='33'>
+       <attr name='value' type='8'>1 1 1</attr>
+      </node>
+     </pin>
+     <pin name='specular'>
+      <node id='134' type='31'>
+       <attr name='value' type='6'>0.15000001</attr>
+      </node>
+     </pin>
+     <pin name='brdf'>
+      <node id='135' type='57'>
+       <attr name='value' type='2'>6</attr>
+      </node>
+     </pin>
+     <pin name='roughness'>
+      <node id='136' type='31'>
+       <attr name='value' type='6'>0.72500002</attr>
+      </node>
+     </pin>
+     <pin name='anisotropy'>
+      <node id='137' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='rotation'>
+      <node id='138' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='spread'>
+      <node id='139' type='6'>
+       <attr name='value' type='8'>0.5 0 0</attr>
+      </node>
+     </pin>
+     <pin name='index4'>
+      <node id='140' type='6'>
+       <attr name='value' type='8'>1.5 0 0</attr>
+      </node>
+     </pin>
+     <pin name='metallicMode'>
+      <node id='141' type='57'>
+       <attr name='value' type='2'>0</attr>
+      </node>
+     </pin>
+     <pin name='index'>
+      <node id='142' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='index2'>
+      <node id='143' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='index3'>
+      <node id='144' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='hasCaustics'>
+      <node id='145' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='coating'>
+      <node id='146' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='coatingRoughness'>
+      <node id='147' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='coatingIndex'>
+      <node id='148' type='6'>
+       <attr name='value' type='8'>1.3200001 0 0</attr>
+      </node>
+     </pin>
+     <pin name='filmwidth'>
+      <node id='149' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='filmindex'>
+      <node id='150' type='6'>
+       <attr name='value' type='8'>1.45 0 0</attr>
+      </node>
+     </pin>
+     <pin name='sheen'>
+      <node id='151' type='33'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='sheenRoughness'>
+      <node id='152' type='31'>
+       <attr name='value' type='6'>0.2</attr>
+      </node>
+     </pin>
+     <pin name='dispersion_coefficient_B'>
+      <node id='153' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='dispersionMode'>
+      <node id='154' type='57'>
+       <attr name='value' type='2'>2</attr>
+      </node>
+     </pin>
+     <pin name='medium' connect='174'/>
+     <pin name='opacity'>
+      <node id='155' type='31'>
+       <attr name='value' type='6'>1</attr>
+      </node>
+     </pin>
+     <pin name='fake_shadows'>
+      <node id='156' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='refractionAlpha'>
+      <node id='157' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='bumpHeight'>
+      <node id='158' type='6'>
+       <attr name='value' type='8'>0.0099999998 0 0</attr>
+      </node>
+     </pin>
+     <pin name='smooth'>
+      <node id='159' type='11'>
+       <attr name='value' type='1'>1</attr>
+      </node>
+     </pin>
+     <pin name='smoothShadowTerminator'>
+      <node id='160' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='roundEdges'>
+      <node id='161' type='137'>
+       <attr name='compatibilityVersion' type='2'>12000102</attr>
+       <pin name='roundEdgesMode'>
+        <node id='162' type='57'>
+         <attr name='value' type='2'>1</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesRadius'>
+        <node id='163' type='6'>
+         <attr name='value' type='8'>0 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesCurvatureRoundness'>
+        <node id='164' type='6'>
+         <attr name='value' type='8'>1 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesSampleCount'>
+        <node id='165' type='9'>
+         <attr name='value' type='4'>8 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesConsiderOtherObjects'>
+        <node id='166' type='11'>
+         <attr name='value' type='1'>0</attr>
+        </node>
+       </pin>
+      </node>
+     </pin>
+     <pin name='priority'>
+      <node id='167' type='9'>
+       <attr name='value' type='4'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='matte'>
+      <node id='168' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='customAov'>
+      <node id='169' type='57'>
+       <attr name='value' type='2'>4096</attr>
+      </node>
+     </pin>
+     <pin name='customAovChannel'>
+      <node id='170' type='57'>
+       <attr name='value' type='2'>0</attr>
+      </node>
+     </pin>
+     <pin name='layer'>
+      <node id='171' type='144'>
+       <attr name='pin_count' type='2'>0</attr>
+      </node>
+     </pin>
+    </node>
+    <node id='172' type='33' name='transmission_rgb_color' position='-490 -16.40387'>
+     <attr name='value' type='8'>0.25 0.25 0.25</attr>
+    </node>
+    <node id='173' type='33' name='base_rgb_color' position='-343 -21'>
+     <attr name='value' type='8'>0.007686005 0.0032572439 0.00067430636</attr>
+    </node>
+    <node id='174' type='146' name='Random walk' position='261.75 -11.1987'>
+     <attr name='compatibilityVersion' type='2'>13000200</attr>
+     <attr name='volumeUsePercentageStep' type='1'>0</attr>
+     <pin name='scale'>
+      <node id='175' type='6'>
+       <attr name='value' type='8'>30 0 0</attr>
+      </node>
+     </pin>
+     <pin name='rayMarchStepPercent'>
+      <node id='176' type='6'>
+       <attr name='value' type='8'>4 0 0</attr>
+      </node>
+     </pin>
+     <pin name='shadowRayMarchStepPercent'>
+      <node id='177' type='6'>
+       <attr name='value' type='8'>4 0 0</attr>
+      </node>
+     </pin>
+     <pin name='useRayStepLengthForShadowRays'>
+      <node id='178' type='11'>
+       <attr name='value' type='1'>1</attr>
+      </node>
+     </pin>
+     <pin name='singleScatterFactor'>
+      <node id='179' type='6'>
+       <attr name='value' type='8'>1 0 0</attr>
+      </node>
+     </pin>
+     <pin name='volumePadding'>
+      <node id='180' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='albedo'>
+      <node id='181' type='33'>
+       <attr name='value' type='8'>0.21465969 0.077961825 0.021036647</attr>
+      </node>
+     </pin>
+     <pin name='radius'>
+      <node id='182' type='33'>
+       <attr name='value' type='8'>0.050000001 0.0255 0.015000001</attr>
+      </node>
+     </pin>
+     <pin name='bias'>
+      <node id='183' type='6'>
+       <attr name='value' type='8'>0.25 0 0</attr>
+      </node>
+     </pin>
+    </node>
+    <node id='128' type='30007' name='Universal material' position='120 108.8013'>
+     <attr name='group' type='10'></attr>
+     <attr name='description' type='10'></attr>
+     <pin name='input' connect='129'/>
+    </node>
+   </graph>
+   <graph id='184' type='1' name='soap_like' position='9.3681946 43.764618'>
+    <attr name='color' type='8'>1 1 1</attr>
+    <node id='186' type='277' name='soap_like' position='0 0'>
+     <attr name='compatibilityVersion' type='2'>12000102</attr>
+     <pin name='base'>
+      <node id='187' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='baseColor'>
+      <node id='188' type='33'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='diffuseRoughness'>
+      <node id='189' type='31'>
+       <attr name='value' type='6'>1</attr>
+      </node>
+     </pin>
+     <pin name='diffuseBrdf'>
+      <node id='190' type='57'>
+       <attr name='value' type='2'>2</attr>
+      </node>
+     </pin>
+     <pin name='metallic'>
+      <node id='191' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='specular'>
+      <node id='192' type='31'>
+       <attr name='value' type='6'>1</attr>
+      </node>
+     </pin>
+     <pin name='specularColor'>
+      <node id='193' type='33'>
+       <attr name='value' type='8'>1 1 1</attr>
+      </node>
+     </pin>
+     <pin name='roughness'>
+      <node id='194' type='31'>
+       <attr name='value' type='6'>0.2</attr>
+      </node>
+     </pin>
+     <pin name='ior'>
+      <node id='195' type='31'>
+       <attr name='value' type='6'>1.5</attr>
+      </node>
+     </pin>
+     <pin name='anisotropyTexture'>
+      <node id='196' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='rotation'>
+      <node id='197' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='transmission'>
+      <node id='198' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='transmissionColor'>
+      <node id='199' type='33'>
+       <attr name='value' type='8'>1 1 1</attr>
+      </node>
+     </pin>
+     <pin name='transmissionDepth'>
+      <node id='200' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='scattering'>
+      <node id='201' type='33'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='scatteringAnisotropy'>
+      <node id='202' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='dispersion_coefficient_B'>
+      <node id='203' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='dispersionMode'>
+      <node id='204' type='57'>
+       <attr name='value' type='2'>1</attr>
+      </node>
+     </pin>
+     <pin name='roughnessExtra'>
+      <node id='205' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='priority'>
+      <node id='206' type='9'>
+       <attr name='value' type='4'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='fake_shadows'>
+      <node id='207' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='refractionAlpha'>
+      <node id='208' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='hasCaustics'>
+      <node id='209' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='subsurface'>
+      <node id='210' type='31'>
+       <attr name='value' type='6'>1</attr>
+      </node>
+     </pin>
+     <pin name='subsurfaceColor'>
+      <node id='211' type='33'>
+       <attr name='value' type='8'>0.60382736 0.29569986 0.13286832</attr>
+      </node>
+     </pin>
+     <pin name='radius'>
+      <node id='212' type='33'>
+       <attr name='value' type='8'>0.4137418 0.41168559 0.39320582</attr>
+      </node>
+     </pin>
+     <pin name='scale'>
+      <node id='213' type='6'>
+       <attr name='value' type='8'>0.025 0 0</attr>
+      </node>
+     </pin>
+     <pin name='subsurfaceAnisotropy'>
+      <node id='214' type='6'>
+       <attr name='value' type='8'>-0.25 0 0</attr>
+      </node>
+     </pin>
+     <pin name='coating'>
+      <node id='215' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='coatingColor'>
+      <node id='216' type='33'>
+       <attr name='value' type='8'>1 1 1</attr>
+      </node>
+     </pin>
+     <pin name='coatingRoughness'>
+      <node id='217' type='31'>
+       <attr name='value' type='6'>0.1</attr>
+      </node>
+     </pin>
+     <pin name='coatingIor'>
+      <node id='218' type='31'>
+       <attr name='value' type='6'>1.5</attr>
+      </node>
+     </pin>
+     <pin name='coatingAnisotropy'>
+      <node id='219' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='coatingRotation'>
+      <node id='220' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='sheen'>
+      <node id='221' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='sheenColor'>
+      <node id='222' type='33'>
+       <attr name='value' type='8'>1 1 1</attr>
+      </node>
+     </pin>
+     <pin name='sheenRoughness'>
+      <node id='223' type='31'>
+       <attr name='value' type='6'>0.30000001</attr>
+      </node>
+     </pin>
+     <pin name='emissionWeight'>
+      <node id='224' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='emissionColor'>
+      <node id='225' type='33'>
+       <attr name='value' type='8'>1 1 1</attr>
+      </node>
+     </pin>
+     <pin name='filmwidth'>
+      <node id='226' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='filmIor'>
+      <node id='227' type='31'>
+       <attr name='value' type='6'>1.45</attr>
+      </node>
+     </pin>
+     <pin name='thinWall'>
+      <node id='228' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='bumpHeight'>
+      <node id='229' type='6'>
+       <attr name='value' type='8'>0.0099999998 0 0</attr>
+      </node>
+     </pin>
+     <pin name='smooth'>
+      <node id='230' type='11'>
+       <attr name='value' type='1'>1</attr>
+      </node>
+     </pin>
+     <pin name='smoothShadowTerminator'>
+      <node id='231' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='roundEdges'>
+      <node id='232' type='137'>
+       <attr name='compatibilityVersion' type='2'>12000102</attr>
+       <pin name='roundEdgesMode'>
+        <node id='233' type='57'>
+         <attr name='value' type='2'>1</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesRadius'>
+        <node id='234' type='6'>
+         <attr name='value' type='8'>0 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesCurvatureRoundness'>
+        <node id='235' type='6'>
+         <attr name='value' type='8'>1 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesSampleCount'>
+        <node id='236' type='9'>
+         <attr name='value' type='4'>8 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesConsiderOtherObjects'>
+        <node id='237' type='11'>
+         <attr name='value' type='1'>0</attr>
+        </node>
+       </pin>
+      </node>
+     </pin>
+     <pin name='opacity'>
+      <node id='238' type='31'>
+       <attr name='value' type='6'>1</attr>
+      </node>
+     </pin>
+     <pin name='layer'>
+      <node id='239' type='144'>
+       <attr name='pin_count' type='2'>0</attr>
+      </node>
+     </pin>
+    </node>
+    <node id='185' type='30007' name='soap_like' position='0 100'>
+     <attr name='group' type='10'></attr>
+     <attr name='description' type='10'></attr>
+     <pin name='input' connect='186'/>
+    </node>
+   </graph>
+   <graph id='240' type='1' name='jade' position='110.55246 2.7350464'>
+    <attr name='color' type='8'>1 1 1</attr>
+    <node id='242' type='33' name='transmission_rgb_color' position='-671.75 -18.90119'>
+     <attr name='value' type='8'>0.64999998 0.64999998 0.64999998</attr>
+    </node>
+    <node id='243' type='130' name='Universal material' position='111.75 34.8013'>
+     <attr name='compatibilityVersion' type='2'>12000102</attr>
+     <pin name='transmission' connect='242'/>
+     <pin name='transmissionType'>
+      <node id='244' type='57'>
+       <attr name='value' type='2'>1</attr>
+      </node>
+     </pin>
+     <pin name='albedo' connect='286'/>
+     <pin name='diffuseBrdf'>
+      <node id='245' type='57'>
+       <attr name='value' type='2'>2</attr>
+      </node>
+     </pin>
+     <pin name='metallic'>
+      <node id='246' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='edgeTint'>
+      <node id='247' type='33'>
+       <attr name='value' type='8'>1 1 1</attr>
+      </node>
+     </pin>
+     <pin name='specular'>
+      <node id='248' type='31'>
+       <attr name='value' type='6'>1</attr>
+      </node>
+     </pin>
+     <pin name='brdf'>
+      <node id='249' type='57'>
+       <attr name='value' type='2'>6</attr>
+      </node>
+     </pin>
+     <pin name='roughness'>
+      <node id='250' type='31'>
+       <attr name='value' type='6'>0.063199997</attr>
+      </node>
+     </pin>
+     <pin name='anisotropy'>
+      <node id='251' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='rotation'>
+      <node id='252' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='spread'>
+      <node id='253' type='6'>
+       <attr name='value' type='8'>0.5 0 0</attr>
+      </node>
+     </pin>
+     <pin name='index4'>
+      <node id='254' type='6'>
+       <attr name='value' type='8'>1.5 0 0</attr>
+      </node>
+     </pin>
+     <pin name='metallicMode'>
+      <node id='255' type='57'>
+       <attr name='value' type='2'>0</attr>
+      </node>
+     </pin>
+     <pin name='index'>
+      <node id='256' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='index2'>
+      <node id='257' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='index3'>
+      <node id='258' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='hasCaustics'>
+      <node id='259' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='coating'>
+      <node id='260' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='coatingRoughness'>
+      <node id='261' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='coatingIndex'>
+      <node id='262' type='6'>
+       <attr name='value' type='8'>1.3200001 0 0</attr>
+      </node>
+     </pin>
+     <pin name='filmwidth'>
+      <node id='263' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='filmindex'>
+      <node id='264' type='6'>
+       <attr name='value' type='8'>1.45 0 0</attr>
+      </node>
+     </pin>
+     <pin name='sheen'>
+      <node id='265' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='sheenRoughness'>
+      <node id='266' type='31'>
+       <attr name='value' type='6'>0.2</attr>
+      </node>
+     </pin>
+     <pin name='dispersion_coefficient_B'>
+      <node id='267' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='dispersionMode'>
+      <node id='268' type='57'>
+       <attr name='value' type='2'>2</attr>
+      </node>
+     </pin>
+     <pin name='medium' connect='287'/>
+     <pin name='opacity'>
+      <node id='269' type='31'>
+       <attr name='value' type='6'>1</attr>
+      </node>
+     </pin>
+     <pin name='fake_shadows'>
+      <node id='270' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='refractionAlpha'>
+      <node id='271' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='bumpHeight'>
+      <node id='272' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='smooth'>
+      <node id='273' type='11'>
+       <attr name='value' type='1'>1</attr>
+      </node>
+     </pin>
+     <pin name='smoothShadowTerminator'>
+      <node id='274' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='roundEdges'>
+      <node id='275' type='137'>
+       <attr name='compatibilityVersion' type='2'>12000102</attr>
+       <pin name='roundEdgesMode'>
+        <node id='276' type='57'>
+         <attr name='value' type='2'>0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesRadius'>
+        <node id='277' type='6'>
+         <attr name='value' type='8'>0 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesCurvatureRoundness'>
+        <node id='278' type='6'>
+         <attr name='value' type='8'>1 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesSampleCount'>
+        <node id='279' type='9'>
+         <attr name='value' type='4'>8 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesConsiderOtherObjects'>
+        <node id='280' type='11'>
+         <attr name='value' type='1'>0</attr>
+        </node>
+       </pin>
+      </node>
+     </pin>
+     <pin name='priority'>
+      <node id='281' type='9'>
+       <attr name='value' type='4'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='matte'>
+      <node id='282' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='customAov'>
+      <node id='283' type='57'>
+       <attr name='value' type='2'>4096</attr>
+      </node>
+     </pin>
+     <pin name='customAovChannel'>
+      <node id='284' type='57'>
+       <attr name='value' type='2'>0</attr>
+      </node>
+     </pin>
+     <pin name='layer'>
+      <node id='285' type='144'>
+       <attr name='pin_count' type='2'>0</attr>
+      </node>
+     </pin>
+    </node>
+    <node id='286' type='33' name='base_rgb_color' position='-520 -16.37299'>
+     <attr name='value' type='8'>0 0 0</attr>
+    </node>
+    <node id='287' type='146' name='Random walk' position='148.75 -19.1987'>
+     <attr name='compatibilityVersion' type='2'>13000200</attr>
+     <attr name='volumeUsePercentageStep' type='1'>0</attr>
+     <pin name='scale'>
+      <node id='288' type='6'>
+       <attr name='value' type='8'>20 0 0</attr>
+      </node>
+     </pin>
+     <pin name='rayMarchStepPercent'>
+      <node id='289' type='6'>
+       <attr name='value' type='8'>4 0 0</attr>
+      </node>
+     </pin>
+     <pin name='shadowRayMarchStepPercent'>
+      <node id='290' type='6'>
+       <attr name='value' type='8'>4 0 0</attr>
+      </node>
+     </pin>
+     <pin name='useRayStepLengthForShadowRays'>
+      <node id='291' type='11'>
+       <attr name='value' type='1'>1</attr>
+      </node>
+     </pin>
+     <pin name='singleScatterFactor'>
+      <node id='292' type='6'>
+       <attr name='value' type='8'>1 0 0</attr>
+      </node>
+     </pin>
+     <pin name='volumePadding'>
+      <node id='293' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='albedo'>
+      <node id='294' type='33'>
+       <attr name='value' type='8'>0.016529277 0.029999999 0.0036900006</attr>
+      </node>
+     </pin>
+     <pin name='radius'>
+      <node id='295' type='33'>
+       <attr name='value' type='8'>0.050634224 0.092 0.042872</attr>
+      </node>
+     </pin>
+     <pin name='bias'>
+      <node id='296' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+    </node>
+    <node id='241' type='30007' name='Universal material' position='-196.25 134.8013'>
+     <attr name='group' type='10'></attr>
+     <attr name='description' type='10'></attr>
+     <pin name='input' connect='243'/>
+    </node>
+   </graph>
+   <graph id='297' type='1' name='neomorph' position='146.65573 -36.399689'>
+    <attr name='color' type='8'>1 1 1</attr>
+    <node id='299' type='130' name='neomorph' position='111.75 34.8013'>
+     <attr name='compatibilityVersion' type='2'>12000102</attr>
+     <pin name='transmission' connect='342'/>
+     <pin name='transmissionType'>
+      <node id='300' type='57'>
+       <attr name='value' type='2'>1</attr>
+      </node>
+     </pin>
+     <pin name='albedo' connect='343'/>
+     <pin name='diffuseBrdf'>
+      <node id='301' type='57'>
+       <attr name='value' type='2'>2</attr>
+      </node>
+     </pin>
+     <pin name='metallic'>
+      <node id='302' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='edgeTint'>
+      <node id='303' type='33'>
+       <attr name='value' type='8'>1 1 1</attr>
+      </node>
+     </pin>
+     <pin name='specular'>
+      <node id='304' type='31'>
+       <attr name='value' type='6'>0.40000001</attr>
+      </node>
+     </pin>
+     <pin name='brdf'>
+      <node id='305' type='57'>
+       <attr name='value' type='2'>6</attr>
+      </node>
+     </pin>
+     <pin name='roughness'>
+      <node id='306' type='31'>
+       <attr name='value' type='6'>0.12</attr>
+      </node>
+     </pin>
+     <pin name='anisotropy'>
+      <node id='307' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='rotation'>
+      <node id='308' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='spread'>
+      <node id='309' type='6'>
+       <attr name='value' type='8'>0.5 0 0</attr>
+      </node>
+     </pin>
+     <pin name='index4'>
+      <node id='310' type='6'>
+       <attr name='value' type='8'>1.5 0 0</attr>
+      </node>
+     </pin>
+     <pin name='metallicMode'>
+      <node id='311' type='57'>
+       <attr name='value' type='2'>0</attr>
+      </node>
+     </pin>
+     <pin name='index'>
+      <node id='312' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='index2'>
+      <node id='313' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='index3'>
+      <node id='314' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='hasCaustics'>
+      <node id='315' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='coating'>
+      <node id='316' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='coatingRoughness'>
+      <node id='317' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='coatingIndex'>
+      <node id='318' type='6'>
+       <attr name='value' type='8'>1.3200001 0 0</attr>
+      </node>
+     </pin>
+     <pin name='filmwidth'>
+      <node id='319' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='filmindex'>
+      <node id='320' type='6'>
+       <attr name='value' type='8'>1.45 0 0</attr>
+      </node>
+     </pin>
+     <pin name='sheen'>
+      <node id='321' type='33'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='sheenRoughness'>
+      <node id='322' type='31'>
+       <attr name='value' type='6'>0.2</attr>
+      </node>
+     </pin>
+     <pin name='dispersion_coefficient_B'>
+      <node id='323' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='dispersionMode'>
+      <node id='324' type='57'>
+       <attr name='value' type='2'>2</attr>
+      </node>
+     </pin>
+     <pin name='medium' connect='344'/>
+     <pin name='opacity'>
+      <node id='325' type='31'>
+       <attr name='value' type='6'>1</attr>
+      </node>
+     </pin>
+     <pin name='fake_shadows'>
+      <node id='326' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='refractionAlpha'>
+      <node id='327' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='bumpHeight'>
+      <node id='328' type='6'>
+       <attr name='value' type='8'>0.0099999998 0 0</attr>
+      </node>
+     </pin>
+     <pin name='smooth'>
+      <node id='329' type='11'>
+       <attr name='value' type='1'>1</attr>
+      </node>
+     </pin>
+     <pin name='smoothShadowTerminator'>
+      <node id='330' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='roundEdges'>
+      <node id='331' type='137'>
+       <attr name='compatibilityVersion' type='2'>12000102</attr>
+       <pin name='roundEdgesMode'>
+        <node id='332' type='57'>
+         <attr name='value' type='2'>1</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesRadius'>
+        <node id='333' type='6'>
+         <attr name='value' type='8'>0 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesCurvatureRoundness'>
+        <node id='334' type='6'>
+         <attr name='value' type='8'>1 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesSampleCount'>
+        <node id='335' type='9'>
+         <attr name='value' type='4'>8 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesConsiderOtherObjects'>
+        <node id='336' type='11'>
+         <attr name='value' type='1'>0</attr>
+        </node>
+       </pin>
+      </node>
+     </pin>
+     <pin name='priority'>
+      <node id='337' type='9'>
+       <attr name='value' type='4'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='matte'>
+      <node id='338' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='customAov'>
+      <node id='339' type='57'>
+       <attr name='value' type='2'>4096</attr>
+      </node>
+     </pin>
+     <pin name='customAovChannel'>
+      <node id='340' type='57'>
+       <attr name='value' type='2'>0</attr>
+      </node>
+     </pin>
+     <pin name='layer'>
+      <node id='341' type='144'>
+       <attr name='pin_count' type='2'>0</attr>
+      </node>
+     </pin>
+    </node>
+    <node id='342' type='33' name='transmission_rgb_color' position='-360 -13.40387'>
+     <attr name='value' type='8'>1 1 1</attr>
+    </node>
+    <node id='343' type='33' name='base_rgb_color' position='-200 -13'>
+     <attr name='value' type='8'>0 0 0</attr>
+    </node>
+    <node id='344' type='146' name='Random walk' position='280 -13.1987'>
+     <attr name='compatibilityVersion' type='2'>13000200</attr>
+     <attr name='volumeUsePercentageStep' type='1'>0</attr>
+     <pin name='scale'>
+      <node id='345' type='6'>
+       <attr name='value' type='8'>30 0 0</attr>
+      </node>
+     </pin>
+     <pin name='rayMarchStepPercent'>
+      <node id='346' type='6'>
+       <attr name='value' type='8'>4 0 0</attr>
+      </node>
+     </pin>
+     <pin name='shadowRayMarchStepPercent'>
+      <node id='347' type='6'>
+       <attr name='value' type='8'>4 0 0</attr>
+      </node>
+     </pin>
+     <pin name='useRayStepLengthForShadowRays'>
+      <node id='348' type='11'>
+       <attr name='value' type='1'>1</attr>
+      </node>
+     </pin>
+     <pin name='singleScatterFactor'>
+      <node id='349' type='6'>
+       <attr name='value' type='8'>1 0 0</attr>
+      </node>
+     </pin>
+     <pin name='volumePadding'>
+      <node id='350' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='albedo'>
+      <node id='351' type='33'>
+       <attr name='value' type='8'>0.83246076 1 0.97105342</attr>
+      </node>
+     </pin>
+     <pin name='radius'>
+      <node id='352' type='33'>
+       <attr name='value' type='8'>0.16753924 0.025437895 0.027995737</attr>
+      </node>
+     </pin>
+     <pin name='bias'>
+      <node id='353' type='6'>
+       <attr name='value' type='8'>0.528 0 0</attr>
+      </node>
+     </pin>
+    </node>
+    <node id='298' type='30007' name='Universal material' position='111.75 105.8013'>
+     <attr name='group' type='10'></attr>
+     <attr name='description' type='10'></attr>
+     <pin name='input' connect='299'/>
+    </node>
+   </graph>
+   <graph id='354' type='1' name='soap_v2' position='-144.44748 2.7350159'>
+    <attr name='color' type='8'>1 1 1</attr>
+    <node id='356' type='334' name='Range' position='-56 123.15065'>
+     <attr name='compatibilityVersion' type='2'>13000009</attr>
+     <pin name='input' connect='472'/>
+     <pin name='interpolationType'>
+      <node id='357' type='57'>
+       <attr name='value' type='2'>0</attr>
+      </node>
+     </pin>
+     <pin name='inputMin'>
+      <node id='358' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='inputMax'>
+      <node id='359' type='31'>
+       <attr name='value' type='6'>1</attr>
+      </node>
+     </pin>
+     <pin name='outputMin'>
+      <node id='360' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='outputMax'>
+      <node id='361' type='31'>
+       <attr name='value' type='6'>1.5</attr>
+      </node>
+     </pin>
+     <pin name='interpolationSteps'>
+      <node id='362' type='9'>
+       <attr name='value' type='4'>8 0 0</attr>
+      </node>
+     </pin>
+     <pin name='clamp'>
+      <node id='363' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+    </node>
+    <node id='364' type='33' name='RGB color' position='-331 160'>
+     <attr name='value' type='8'>0 0 0</attr>
+    </node>
+    <node id='365' type='277' name='soap_like' position='0 0'>
+     <attr name='compatibilityVersion' type='2'>12000102</attr>
+     <pin name='base'>
+      <node id='366' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='baseColor'>
+      <node id='367' type='33'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='diffuseRoughness'>
+      <node id='368' type='31'>
+       <attr name='value' type='6'>1</attr>
+      </node>
+     </pin>
+     <pin name='diffuseBrdf'>
+      <node id='369' type='57'>
+       <attr name='value' type='2'>2</attr>
+      </node>
+     </pin>
+     <pin name='metallic'>
+      <node id='370' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='specular'>
+      <node id='371' type='31'>
+       <attr name='value' type='6'>1</attr>
+      </node>
+     </pin>
+     <pin name='specularColor'>
+      <node id='372' type='33'>
+       <attr name='value' type='8'>1 1 1</attr>
+      </node>
+     </pin>
+     <pin name='roughness'>
+      <node id='373' type='31'>
+       <attr name='value' type='6'>0.2</attr>
+      </node>
+     </pin>
+     <pin name='ior'>
+      <node id='374' type='31'>
+       <attr name='value' type='6'>1.5</attr>
+      </node>
+     </pin>
+     <pin name='anisotropyTexture'>
+      <node id='375' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='rotation'>
+      <node id='376' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='transmission'>
+      <node id='377' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='transmissionColor'>
+      <node id='378' type='33'>
+       <attr name='value' type='8'>1 1 1</attr>
+      </node>
+     </pin>
+     <pin name='transmissionDepth'>
+      <node id='379' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='scattering'>
+      <node id='380' type='33'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='scatteringAnisotropy'>
+      <node id='381' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='dispersion_coefficient_B'>
+      <node id='382' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='dispersionMode'>
+      <node id='383' type='57'>
+       <attr name='value' type='2'>1</attr>
+      </node>
+     </pin>
+     <pin name='roughnessExtra'>
+      <node id='384' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='priority'>
+      <node id='385' type='9'>
+       <attr name='value' type='4'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='fake_shadows'>
+      <node id='386' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='refractionAlpha'>
+      <node id='387' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='hasCaustics'>
+      <node id='388' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='subsurface'>
+      <node id='389' type='31'>
+       <attr name='value' type='6'>1</attr>
+      </node>
+     </pin>
+     <pin name='subsurfaceColor'>
+      <node id='390' type='33'>
+       <attr name='value' type='8'>0.60382736 0.29569986 0.13286832</attr>
+      </node>
+     </pin>
+     <pin name='radius'>
+      <node id='391' type='33'>
+       <attr name='value' type='8'>0.4137418 0.41168559 0.39320582</attr>
+      </node>
+     </pin>
+     <pin name='scale'>
+      <node id='392' type='6'>
+       <attr name='value' type='8'>1.21 0 0</attr>
+      </node>
+     </pin>
+     <pin name='subsurfaceAnisotropy'>
+      <node id='393' type='6'>
+       <attr name='value' type='8'>-0.25 0 0</attr>
+      </node>
+     </pin>
+     <pin name='coating'>
+      <node id='394' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='coatingColor'>
+      <node id='395' type='33'>
+       <attr name='value' type='8'>1 1 1</attr>
+      </node>
+     </pin>
+     <pin name='coatingRoughness'>
+      <node id='396' type='31'>
+       <attr name='value' type='6'>0.1</attr>
+      </node>
+     </pin>
+     <pin name='coatingIor'>
+      <node id='397' type='31'>
+       <attr name='value' type='6'>1.5</attr>
+      </node>
+     </pin>
+     <pin name='coatingAnisotropy'>
+      <node id='398' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='coatingRotation'>
+      <node id='399' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='sheen'>
+      <node id='400' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='sheenColor'>
+      <node id='401' type='33'>
+       <attr name='value' type='8'>1 1 1</attr>
+      </node>
+     </pin>
+     <pin name='sheenRoughness'>
+      <node id='402' type='31'>
+       <attr name='value' type='6'>0.30000001</attr>
+      </node>
+     </pin>
+     <pin name='emissionWeight'>
+      <node id='403' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='emissionColor'>
+      <node id='404' type='33'>
+       <attr name='value' type='8'>1 1 1</attr>
+      </node>
+     </pin>
+     <pin name='filmwidth'>
+      <node id='405' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='filmIor'>
+      <node id='406' type='31'>
+       <attr name='value' type='6'>1.45</attr>
+      </node>
+     </pin>
+     <pin name='thinWall'>
+      <node id='407' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='bumpHeight'>
+      <node id='408' type='6'>
+       <attr name='value' type='8'>0.0099999998 0 0</attr>
+      </node>
+     </pin>
+     <pin name='smooth'>
+      <node id='409' type='11'>
+       <attr name='value' type='1'>1</attr>
+      </node>
+     </pin>
+     <pin name='smoothShadowTerminator'>
+      <node id='410' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='roundEdges'>
+      <node id='411' type='137'>
+       <attr name='compatibilityVersion' type='2'>12000102</attr>
+       <pin name='roundEdgesMode'>
+        <node id='412' type='57'>
+         <attr name='value' type='2'>1</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesRadius'>
+        <node id='413' type='6'>
+         <attr name='value' type='8'>0 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesCurvatureRoundness'>
+        <node id='414' type='6'>
+         <attr name='value' type='8'>1 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesSampleCount'>
+        <node id='415' type='9'>
+         <attr name='value' type='4'>8 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesConsiderOtherObjects'>
+        <node id='416' type='11'>
+         <attr name='value' type='1'>0</attr>
+        </node>
+       </pin>
+      </node>
+     </pin>
+     <pin name='opacity'>
+      <node id='417' type='31'>
+       <attr name='value' type='6'>1</attr>
+      </node>
+     </pin>
+     <pin name='layer'>
+      <node id='418' type='144'>
+       <attr name='pin_count' type='2'>0</attr>
+      </node>
+     </pin>
+    </node>
+    <node id='419' type='146' name='Random walk' position='160 160'>
+     <attr name='compatibilityVersion' type='2'>13000200</attr>
+     <attr name='volumeUsePercentageStep' type='1'>0</attr>
+     <pin name='scale'>
+      <node id='420' type='6'>
+       <attr name='value' type='8'>30 0 0</attr>
+      </node>
+     </pin>
+     <pin name='rayMarchStepPercent'>
+      <node id='421' type='6'>
+       <attr name='value' type='8'>4 0 0</attr>
+      </node>
+     </pin>
+     <pin name='shadowRayMarchStepPercent'>
+      <node id='422' type='6'>
+       <attr name='value' type='8'>4 0 0</attr>
+      </node>
+     </pin>
+     <pin name='useRayStepLengthForShadowRays'>
+      <node id='423' type='11'>
+       <attr name='value' type='1'>1</attr>
+      </node>
+     </pin>
+     <pin name='singleScatterFactor'>
+      <node id='424' type='6'>
+       <attr name='value' type='8'>1 0 0</attr>
+      </node>
+     </pin>
+     <pin name='volumePadding'>
+      <node id='425' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='albedo'>
+      <node id='426' type='33'>
+       <attr name='value' type='8'>0.82198954 0.76938224 0.49319375</attr>
+      </node>
+     </pin>
+     <pin name='radius'>
+      <node id='427' type='33'>
+       <attr name='value' type='8'>0.27748692 0.26638743 0.23308903</attr>
+      </node>
+     </pin>
+     <pin name='bias'>
+      <node id='428' type='6'>
+       <attr name='value' type='8'>0.68100005 0 0</attr>
+      </node>
+     </pin>
+    </node>
+    <node id='429' type='130' name='Universal material' position='0 213'>
+     <attr name='compatibilityVersion' type='2'>13000006</attr>
+     <pin name='transmission' connect='471'/>
+     <pin name='transmissionType'>
+      <node id='430' type='57'>
+       <attr name='value' type='2'>1</attr>
+      </node>
+     </pin>
+     <pin name='albedo' connect='364'/>
+     <pin name='diffuseBrdf'>
+      <node id='431' type='57'>
+       <attr name='value' type='2'>2</attr>
+      </node>
+     </pin>
+     <pin name='metallic'>
+      <node id='432' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='edgeTint'>
+      <node id='433' type='33'>
+       <attr name='value' type='8'>1 1 1</attr>
+      </node>
+     </pin>
+     <pin name='specular'>
+      <node id='434' type='31'>
+       <attr name='value' type='6'>1</attr>
+      </node>
+     </pin>
+     <pin name='brdf'>
+      <node id='435' type='57'>
+       <attr name='value' type='2'>6</attr>
+      </node>
+     </pin>
+     <pin name='roughness' connect='356'/>
+     <pin name='anisotropy'>
+      <node id='436' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='rotation'>
+      <node id='437' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='spread'>
+      <node id='438' type='6'>
+       <attr name='value' type='8'>0.5 0 0</attr>
+      </node>
+     </pin>
+     <pin name='index4'>
+      <node id='439' type='6'>
+       <attr name='value' type='8'>1.5 0 0</attr>
+      </node>
+     </pin>
+     <pin name='metallicMode'>
+      <node id='440' type='57'>
+       <attr name='value' type='2'>0</attr>
+      </node>
+     </pin>
+     <pin name='index'>
+      <node id='441' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='index2'>
+      <node id='442' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='index3'>
+      <node id='443' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='hasCaustics'>
+      <node id='444' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='coating'>
+      <node id='445' type='33'>
+       <attr name='value' type='8'>1 1 1</attr>
+      </node>
+     </pin>
+     <pin name='coatingRoughness'>
+      <node id='446' type='31'>
+       <attr name='value' type='6'>0.097000003</attr>
+      </node>
+     </pin>
+     <pin name='coatingIndex'>
+      <node id='447' type='6'>
+       <attr name='value' type='8'>1.29 0 0</attr>
+      </node>
+     </pin>
+     <pin name='filmwidth'>
+      <node id='448' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='filmindex'>
+      <node id='449' type='6'>
+       <attr name='value' type='8'>1.45 0 0</attr>
+      </node>
+     </pin>
+     <pin name='sheen'>
+      <node id='450' type='33'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='sheenRoughness'>
+      <node id='451' type='31'>
+       <attr name='value' type='6'>0.2</attr>
+      </node>
+     </pin>
+     <pin name='dispersion_coefficient_B'>
+      <node id='452' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='dispersionMode'>
+      <node id='453' type='57'>
+       <attr name='value' type='2'>1</attr>
+      </node>
+     </pin>
+     <pin name='medium' connect='419'/>
+     <pin name='opacity'>
+      <node id='454' type='31'>
+       <attr name='value' type='6'>1</attr>
+      </node>
+     </pin>
+     <pin name='fake_shadows'>
+      <node id='455' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='refractionAlpha'>
+      <node id='456' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='bump' connect='472'/>
+     <pin name='bumpHeight'>
+      <node id='457' type='6'>
+       <attr name='value' type='8'>0.0099999998 0 0</attr>
+      </node>
+     </pin>
+     <pin name='smooth'>
+      <node id='458' type='11'>
+       <attr name='value' type='1'>1</attr>
+      </node>
+     </pin>
+     <pin name='smoothShadowTerminator'>
+      <node id='459' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='roundEdges'>
+      <node id='460' type='137'>
+       <attr name='compatibilityVersion' type='2'>13000006</attr>
+       <pin name='roundEdgesMode'>
+        <node id='461' type='57'>
+         <attr name='value' type='2'>1</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesRadius'>
+        <node id='462' type='6'>
+         <attr name='value' type='8'>0 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesCurvatureRoundness'>
+        <node id='463' type='6'>
+         <attr name='value' type='8'>1 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesSampleCount'>
+        <node id='464' type='9'>
+         <attr name='value' type='4'>8 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesConsiderOtherObjects'>
+        <node id='465' type='11'>
+         <attr name='value' type='1'>0</attr>
+        </node>
+       </pin>
+      </node>
+     </pin>
+     <pin name='priority'>
+      <node id='466' type='9'>
+       <attr name='value' type='4'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='matte'>
+      <node id='467' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='customAov'>
+      <node id='468' type='57'>
+       <attr name='value' type='2'>4096</attr>
+      </node>
+     </pin>
+     <pin name='customAovChannel'>
+      <node id='469' type='57'>
+       <attr name='value' type='2'>0</attr>
+      </node>
+     </pin>
+     <pin name='layer'>
+      <node id='470' type='144'>
+       <attr name='pin_count' type='2'>0</attr>
+      </node>
+     </pin>
+    </node>
+    <node id='471' type='33' name='RGB color' position='-480 160'>
+     <attr name='value' type='8'>1 0.95746076 0.875</attr>
+    </node>
+    <node id='472' type='87' name='test' position='338 96.84935'>
+     <pin name='power'>
+      <node id='473' type='31'>
+       <attr name='value' type='6'>0.62099999</attr>
+      </node>
+     </pin>
+     <pin name='noiseType'>
+      <node id='474' type='57'>
+       <attr name='value' type='2'>0</attr>
+      </node>
+     </pin>
+     <pin name='octaves'>
+      <node id='475' type='9'>
+       <attr name='value' type='4'>16 0 0</attr>
+      </node>
+     </pin>
+     <pin name='omega'>
+      <node id='476' type='6'>
+       <attr name='value' type='8'>0.5 0 0</attr>
+      </node>
+     </pin>
+     <pin name='transform'>
+      <node id='477' type='67'>
+       <attr name='rotationOrder' type='2'>2</attr>
+       <attr name='rotation' type='8'>-0 0 0</attr>
+       <attr name='scale' type='8'>1 1 1</attr>
+       <attr name='translation' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='projection'>
+      <node id='478' type='79'>
+       <pin name='transform'>
+        <node id='479' type='67'>
+         <attr name='rotationOrder' type='2'>2</attr>
+         <attr name='rotation' type='8'>-0 0 0</attr>
+         <attr name='scale' type='8'>1 1 1</attr>
+         <attr name='translation' type='8'>0 0 0</attr>
+        </node>
+       </pin>
+       <pin name='positionType'>
+        <node id='480' type='57'>
+         <attr name='value' type='2'>3</attr>
+        </node>
+       </pin>
+      </node>
+     </pin>
+     <pin name='invert'>
+      <node id='481' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='gamma'>
+      <node id='482' type='6'>
+       <attr name='value' type='8'>1 0 0</attr>
+      </node>
+     </pin>
+     <pin name='contrast'>
+      <node id='483' type='6'>
+       <attr name='value' type='8'>2 0 0</attr>
+      </node>
+     </pin>
+    </node>
+    <node id='355' type='30007' name='soap_like' position='0 253'>
+     <attr name='group' type='10'></attr>
+     <attr name='description' type='10'></attr>
+     <pin name='input' connect='429'/>
+    </node>
+   </graph>
+   <graph id='484' type='1' name='gummy_cola' position='117.36819 43.735016'>
+    <attr name='color' type='8'>1 1 1</attr>
+    <node id='486' type='146' name='Random walk' position='146.75 -10.1987'>
+     <attr name='compatibilityVersion' type='2'>13000200</attr>
+     <attr name='volumeUsePercentageStep' type='1'>0</attr>
+     <pin name='scale'>
+      <node id='487' type='6'>
+       <attr name='value' type='8'>4 0 0</attr>
+      </node>
+     </pin>
+     <pin name='rayMarchStepPercent'>
+      <node id='488' type='6'>
+       <attr name='value' type='8'>4 0 0</attr>
+      </node>
+     </pin>
+     <pin name='shadowRayMarchStepPercent'>
+      <node id='489' type='6'>
+       <attr name='value' type='8'>4 0 0</attr>
+      </node>
+     </pin>
+     <pin name='useRayStepLengthForShadowRays'>
+      <node id='490' type='11'>
+       <attr name='value' type='1'>1</attr>
+      </node>
+     </pin>
+     <pin name='singleScatterFactor'>
+      <node id='491' type='6'>
+       <attr name='value' type='8'>1 0 0</attr>
+      </node>
+     </pin>
+     <pin name='volumePadding'>
+      <node id='492' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='albedo'>
+      <node id='493' type='33'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='radius'>
+      <node id='494' type='33'>
+       <attr name='value' type='8'>0.078534007 0.016638111 0.005104715</attr>
+      </node>
+     </pin>
+     <pin name='bias'>
+      <node id='495' type='6'>
+       <attr name='value' type='8'>0.5 0 0</attr>
+      </node>
+     </pin>
+    </node>
+    <node id='496' type='130' name='Universal material' position='111.75 34.8013'>
+     <attr name='compatibilityVersion' type='2'>12000102</attr>
+     <pin name='transmission' connect='539'/>
+     <pin name='transmissionType'>
+      <node id='497' type='57'>
+       <attr name='value' type='2'>1</attr>
+      </node>
+     </pin>
+     <pin name='albedo' connect='540'/>
+     <pin name='diffuseBrdf'>
+      <node id='498' type='57'>
+       <attr name='value' type='2'>1</attr>
+      </node>
+     </pin>
+     <pin name='metallic'>
+      <node id='499' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='edgeTint'>
+      <node id='500' type='33'>
+       <attr name='value' type='8'>1 1 1</attr>
+      </node>
+     </pin>
+     <pin name='specular'>
+      <node id='501' type='31'>
+       <attr name='value' type='6'>0.25</attr>
+      </node>
+     </pin>
+     <pin name='brdf'>
+      <node id='502' type='57'>
+       <attr name='value' type='2'>6</attr>
+      </node>
+     </pin>
+     <pin name='roughness'>
+      <node id='503' type='31'>
+       <attr name='value' type='6'>0.30000001</attr>
+      </node>
+     </pin>
+     <pin name='anisotropy'>
+      <node id='504' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='rotation'>
+      <node id='505' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='spread'>
+      <node id='506' type='6'>
+       <attr name='value' type='8'>0.5 0 0</attr>
+      </node>
+     </pin>
+     <pin name='index4'>
+      <node id='507' type='6'>
+       <attr name='value' type='8'>1.5 0 0</attr>
+      </node>
+     </pin>
+     <pin name='metallicMode'>
+      <node id='508' type='57'>
+       <attr name='value' type='2'>0</attr>
+      </node>
+     </pin>
+     <pin name='index'>
+      <node id='509' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='index2'>
+      <node id='510' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='index3'>
+      <node id='511' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='hasCaustics'>
+      <node id='512' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='coating'>
+      <node id='513' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='coatingRoughness'>
+      <node id='514' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='coatingIndex'>
+      <node id='515' type='6'>
+       <attr name='value' type='8'>1.3200001 0 0</attr>
+      </node>
+     </pin>
+     <pin name='filmwidth'>
+      <node id='516' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='filmindex'>
+      <node id='517' type='6'>
+       <attr name='value' type='8'>1.45 0 0</attr>
+      </node>
+     </pin>
+     <pin name='sheen'>
+      <node id='518' type='33'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='sheenRoughness'>
+      <node id='519' type='31'>
+       <attr name='value' type='6'>0.2</attr>
+      </node>
+     </pin>
+     <pin name='dispersion_coefficient_B'>
+      <node id='520' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='dispersionMode'>
+      <node id='521' type='57'>
+       <attr name='value' type='2'>2</attr>
+      </node>
+     </pin>
+     <pin name='medium' connect='486'/>
+     <pin name='opacity'>
+      <node id='522' type='31'>
+       <attr name='value' type='6'>1</attr>
+      </node>
+     </pin>
+     <pin name='fake_shadows'>
+      <node id='523' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='refractionAlpha'>
+      <node id='524' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='bumpHeight'>
+      <node id='525' type='6'>
+       <attr name='value' type='8'>0.0099999998 0 0</attr>
+      </node>
+     </pin>
+     <pin name='smooth'>
+      <node id='526' type='11'>
+       <attr name='value' type='1'>1</attr>
+      </node>
+     </pin>
+     <pin name='smoothShadowTerminator'>
+      <node id='527' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='roundEdges'>
+      <node id='528' type='137'>
+       <attr name='compatibilityVersion' type='2'>12000102</attr>
+       <pin name='roundEdgesMode'>
+        <node id='529' type='57'>
+         <attr name='value' type='2'>1</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesRadius'>
+        <node id='530' type='6'>
+         <attr name='value' type='8'>0 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesCurvatureRoundness'>
+        <node id='531' type='6'>
+         <attr name='value' type='8'>1 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesSampleCount'>
+        <node id='532' type='9'>
+         <attr name='value' type='4'>8 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesConsiderOtherObjects'>
+        <node id='533' type='11'>
+         <attr name='value' type='1'>0</attr>
+        </node>
+       </pin>
+      </node>
+     </pin>
+     <pin name='priority'>
+      <node id='534' type='9'>
+       <attr name='value' type='4'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='matte'>
+      <node id='535' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='customAov'>
+      <node id='536' type='57'>
+       <attr name='value' type='2'>4096</attr>
+      </node>
+     </pin>
+     <pin name='customAovChannel'>
+      <node id='537' type='57'>
+       <attr name='value' type='2'>0</attr>
+      </node>
+     </pin>
+     <pin name='layer'>
+      <node id='538' type='144'>
+       <attr name='pin_count' type='2'>0</attr>
+      </node>
+     </pin>
+    </node>
+    <node id='539' type='33' name='transmission_rgb_color' position='-360 -14.40387'>
+     <attr name='value' type='8'>0.40000001 0.40000001 0.40000001</attr>
+    </node>
+    <node id='540' type='33' name='base_rgb_color' position='-213 -19'>
+     <attr name='value' type='8'>0.007686005 0.0032572439 0.00067430636</attr>
+    </node>
+    <node id='485' type='30007' name='Universal material' position='-196.25 134.8013'>
+     <attr name='group' type='10'></attr>
+     <attr name='description' type='10'></attr>
+     <pin name='input' connect='496'/>
+    </node>
+   </graph>
+   <graph id='541' type='1' name='caramel' position='-50.433319 4.9183044'>
+    <attr name='color' type='8'>1 1 1</attr>
+    <node id='543' type='130' name='caramel' position='111.75 34.8013'>
+     <attr name='compatibilityVersion' type='2'>12000102</attr>
+     <pin name='transmission' connect='586'/>
+     <pin name='transmissionType'>
+      <node id='544' type='57'>
+       <attr name='value' type='2'>1</attr>
+      </node>
+     </pin>
+     <pin name='albedo' connect='587'/>
+     <pin name='diffuseBrdf'>
+      <node id='545' type='57'>
+       <attr name='value' type='2'>2</attr>
+      </node>
+     </pin>
+     <pin name='metallic'>
+      <node id='546' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='edgeTint'>
+      <node id='547' type='33'>
+       <attr name='value' type='8'>1 1 1</attr>
+      </node>
+     </pin>
+     <pin name='specular'>
+      <node id='548' type='31'>
+       <attr name='value' type='6'>0.308</attr>
+      </node>
+     </pin>
+     <pin name='brdf'>
+      <node id='549' type='57'>
+       <attr name='value' type='2'>6</attr>
+      </node>
+     </pin>
+     <pin name='roughness'>
+      <node id='550' type='31'>
+       <attr name='value' type='6'>0.336</attr>
+      </node>
+     </pin>
+     <pin name='anisotropy'>
+      <node id='551' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='rotation'>
+      <node id='552' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='spread'>
+      <node id='553' type='6'>
+       <attr name='value' type='8'>0.5 0 0</attr>
+      </node>
+     </pin>
+     <pin name='index4'>
+      <node id='554' type='6'>
+       <attr name='value' type='8'>1.5 0 0</attr>
+      </node>
+     </pin>
+     <pin name='metallicMode'>
+      <node id='555' type='57'>
+       <attr name='value' type='2'>0</attr>
+      </node>
+     </pin>
+     <pin name='index'>
+      <node id='556' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='index2'>
+      <node id='557' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='index3'>
+      <node id='558' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='hasCaustics'>
+      <node id='559' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='coating'>
+      <node id='560' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='coatingRoughness'>
+      <node id='561' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='coatingIndex'>
+      <node id='562' type='6'>
+       <attr name='value' type='8'>1.3200001 0 0</attr>
+      </node>
+     </pin>
+     <pin name='filmwidth'>
+      <node id='563' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='filmindex'>
+      <node id='564' type='6'>
+       <attr name='value' type='8'>1.45 0 0</attr>
+      </node>
+     </pin>
+     <pin name='sheen'>
+      <node id='565' type='33'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='sheenRoughness'>
+      <node id='566' type='31'>
+       <attr name='value' type='6'>0.2</attr>
+      </node>
+     </pin>
+     <pin name='dispersion_coefficient_B'>
+      <node id='567' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='dispersionMode'>
+      <node id='568' type='57'>
+       <attr name='value' type='2'>2</attr>
+      </node>
+     </pin>
+     <pin name='medium' connect='588'/>
+     <pin name='opacity'>
+      <node id='569' type='31'>
+       <attr name='value' type='6'>1</attr>
+      </node>
+     </pin>
+     <pin name='fake_shadows'>
+      <node id='570' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='refractionAlpha'>
+      <node id='571' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='bumpHeight'>
+      <node id='572' type='6'>
+       <attr name='value' type='8'>0.0099999998 0 0</attr>
+      </node>
+     </pin>
+     <pin name='smooth'>
+      <node id='573' type='11'>
+       <attr name='value' type='1'>1</attr>
+      </node>
+     </pin>
+     <pin name='smoothShadowTerminator'>
+      <node id='574' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='roundEdges'>
+      <node id='575' type='137'>
+       <attr name='compatibilityVersion' type='2'>12000102</attr>
+       <pin name='roundEdgesMode'>
+        <node id='576' type='57'>
+         <attr name='value' type='2'>1</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesRadius'>
+        <node id='577' type='6'>
+         <attr name='value' type='8'>0 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesCurvatureRoundness'>
+        <node id='578' type='6'>
+         <attr name='value' type='8'>1 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesSampleCount'>
+        <node id='579' type='9'>
+         <attr name='value' type='4'>8 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesConsiderOtherObjects'>
+        <node id='580' type='11'>
+         <attr name='value' type='1'>0</attr>
+        </node>
+       </pin>
+      </node>
+     </pin>
+     <pin name='priority'>
+      <node id='581' type='9'>
+       <attr name='value' type='4'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='matte'>
+      <node id='582' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='customAov'>
+      <node id='583' type='57'>
+       <attr name='value' type='2'>4096</attr>
+      </node>
+     </pin>
+     <pin name='customAovChannel'>
+      <node id='584' type='57'>
+       <attr name='value' type='2'>0</attr>
+      </node>
+     </pin>
+     <pin name='layer'>
+      <node id='585' type='144'>
+       <attr name='pin_count' type='2'>0</attr>
+      </node>
+     </pin>
+    </node>
+    <node id='586' type='33' name='transmission_rgb_color' position='-360 -14.40387'>
+     <attr name='value' type='8'>1 1 1</attr>
+    </node>
+    <node id='587' type='33' name='base_rgb_color' position='-200 -13'>
+     <attr name='value' type='8'>0.025 0.01231947 0.0021932931</attr>
+    </node>
+    <node id='588' type='146' name='Random walk' position='240 -13.1987'>
+     <attr name='compatibilityVersion' type='2'>13000200</attr>
+     <attr name='volumeUsePercentageStep' type='1'>0</attr>
+     <pin name='scale'>
+      <node id='589' type='6'>
+       <attr name='value' type='8'>30 0 0</attr>
+      </node>
+     </pin>
+     <pin name='rayMarchStepPercent'>
+      <node id='590' type='6'>
+       <attr name='value' type='8'>4 0 0</attr>
+      </node>
+     </pin>
+     <pin name='shadowRayMarchStepPercent'>
+      <node id='591' type='6'>
+       <attr name='value' type='8'>4 0 0</attr>
+      </node>
+     </pin>
+     <pin name='useRayStepLengthForShadowRays'>
+      <node id='592' type='11'>
+       <attr name='value' type='1'>1</attr>
+      </node>
+     </pin>
+     <pin name='singleScatterFactor'>
+      <node id='593' type='6'>
+       <attr name='value' type='8'>1 0 0</attr>
+      </node>
+     </pin>
+     <pin name='volumePadding'>
+      <node id='594' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='albedo'>
+      <node id='595' type='33'>
+       <attr name='value' type='8'>0.099476457 0.031819966 0.0036457353</attr>
+      </node>
+     </pin>
+     <pin name='radius'>
+      <node id='596' type='33'>
+       <attr name='value' type='8'>0.078534007 0.044863645 0.003376961</attr>
+      </node>
+     </pin>
+     <pin name='bias'>
+      <node id='597' type='6'>
+       <attr name='value' type='8'>0.87500006 0 0</attr>
+      </node>
+     </pin>
+    </node>
+    <node id='542' type='30007' name='Universal material' position='97.235229 105.80079'>
+     <attr name='group' type='10'></attr>
+     <attr name='description' type='10'></attr>
+     <pin name='input' connect='543'/>
+    </node>
+   </graph>
+   <graph id='598' type='1' name='flesh_like' position='-32.686005 -36.410431'>
+    <attr name='color' type='8'>1 1 1</attr>
+    <node id='600' type='32' name='Gaussian spectrum' position='59 -55.5'>
+     <pin name='wavelength'>
+      <node id='601' type='31'>
+       <attr name='value' type='6'>0.80000001</attr>
+      </node>
+     </pin>
+     <pin name='width'>
+      <node id='602' type='31'>
+       <attr name='value' type='6'>0.050000001</attr>
+      </node>
+     </pin>
+     <pin name='power'>
+      <node id='603' type='31'>
+       <attr name='value' type='6'>0.40000001</attr>
+      </node>
+     </pin>
+    </node>
+    <node id='604' type='33' name='RGB color' position='-520 -52'>
+     <attr name='value' type='8'>1 0.81568003 0.71200001</attr>
+    </node>
+    <node id='605' type='33' name='RGB color' position='-64 -65.5'>
+     <attr name='value' type='8'>1 0.19999999 0.24799994</attr>
+    </node>
+    <node id='606' type='31' name='weight' position='-160 -52'>
+     <attr name='value' type='6'>0.64999998</attr>
+    </node>
+    <node id='607' type='277' name='pale_skin_creature_like_sss' position='1 0'>
+     <attr name='compatibilityVersion' type='2'>12000102</attr>
+     <pin name='base'>
+      <node id='608' type='31'>
+       <attr name='value' type='6'>1</attr>
+      </node>
+     </pin>
+     <pin name='baseColor' connect='604'/>
+     <pin name='diffuseRoughness'>
+      <node id='609' type='31'>
+       <attr name='value' type='6'>0.25</attr>
+      </node>
+     </pin>
+     <pin name='diffuseBrdf'>
+      <node id='610' type='57'>
+       <attr name='value' type='2'>2</attr>
+      </node>
+     </pin>
+     <pin name='metallic'>
+      <node id='611' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='specular'>
+      <node id='612' type='31'>
+       <attr name='value' type='6'>1</attr>
+      </node>
+     </pin>
+     <pin name='specularColor'>
+      <node id='613' type='33'>
+       <attr name='value' type='8'>1 1 1</attr>
+      </node>
+     </pin>
+     <pin name='roughness'>
+      <node id='614' type='31'>
+       <attr name='value' type='6'>0.30000001</attr>
+      </node>
+     </pin>
+     <pin name='ior'>
+      <node id='615' type='31'>
+       <attr name='value' type='6'>1.5</attr>
+      </node>
+     </pin>
+     <pin name='anisotropyTexture'>
+      <node id='616' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='rotation'>
+      <node id='617' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='transmission'>
+      <node id='618' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='transmissionColor'>
+      <node id='619' type='33'>
+       <attr name='value' type='8'>1 1 1</attr>
+      </node>
+     </pin>
+     <pin name='transmissionDepth'>
+      <node id='620' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='scattering'>
+      <node id='621' type='33'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='scatteringAnisotropy'>
+      <node id='622' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='dispersion_coefficient_B'>
+      <node id='623' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='dispersionMode'>
+      <node id='624' type='57'>
+       <attr name='value' type='2'>1</attr>
+      </node>
+     </pin>
+     <pin name='roughnessExtra'>
+      <node id='625' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='priority'>
+      <node id='626' type='9'>
+       <attr name='value' type='4'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='fake_shadows'>
+      <node id='627' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='refractionAlpha'>
+      <node id='628' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='hasCaustics'>
+      <node id='629' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='subsurface' connect='606'/>
+     <pin name='subsurfaceColor' connect='605'/>
+     <pin name='radius' connect='600'/>
+     <pin name='scale'>
+      <node id='630' type='6'>
+       <attr name='value' type='8'>0.050000001 0 0</attr>
+      </node>
+     </pin>
+     <pin name='subsurfaceAnisotropy'>
+      <node id='631' type='6'>
+       <attr name='value' type='8'>0.87500006 0 0</attr>
+      </node>
+     </pin>
+     <pin name='coating'>
+      <node id='632' type='31'>
+       <attr name='value' type='6'>0.2</attr>
+      </node>
+     </pin>
+     <pin name='coatingColor'>
+      <node id='633' type='33'>
+       <attr name='value' type='8'>1 1 1</attr>
+      </node>
+     </pin>
+     <pin name='coatingRoughness'>
+      <node id='634' type='31'>
+       <attr name='value' type='6'>0.029999999</attr>
+      </node>
+     </pin>
+     <pin name='coatingIor'>
+      <node id='635' type='31'>
+       <attr name='value' type='6'>1.4</attr>
+      </node>
+     </pin>
+     <pin name='coatingAnisotropy'>
+      <node id='636' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='coatingRotation'>
+      <node id='637' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='sheen'>
+      <node id='638' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='sheenColor'>
+      <node id='639' type='33'>
+       <attr name='value' type='8'>1 1 1</attr>
+      </node>
+     </pin>
+     <pin name='sheenRoughness'>
+      <node id='640' type='31'>
+       <attr name='value' type='6'>0.30000001</attr>
+      </node>
+     </pin>
+     <pin name='emissionWeight'>
+      <node id='641' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='emissionColor'>
+      <node id='642' type='33'>
+       <attr name='value' type='8'>1 1 1</attr>
+      </node>
+     </pin>
+     <pin name='filmwidth'>
+      <node id='643' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='filmIor'>
+      <node id='644' type='31'>
+       <attr name='value' type='6'>1.45</attr>
+      </node>
+     </pin>
+     <pin name='thinWall'>
+      <node id='645' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='bumpHeight'>
+      <node id='646' type='6'>
+       <attr name='value' type='8'>0.0099999998 0 0</attr>
+      </node>
+     </pin>
+     <pin name='smooth'>
+      <node id='647' type='11'>
+       <attr name='value' type='1'>1</attr>
+      </node>
+     </pin>
+     <pin name='smoothShadowTerminator'>
+      <node id='648' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='roundEdges'>
+      <node id='649' type='137'>
+       <attr name='compatibilityVersion' type='2'>12000102</attr>
+       <pin name='roundEdgesMode'>
+        <node id='650' type='57'>
+         <attr name='value' type='2'>1</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesRadius'>
+        <node id='651' type='6'>
+         <attr name='value' type='8'>0 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesCurvatureRoundness'>
+        <node id='652' type='6'>
+         <attr name='value' type='8'>1 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesSampleCount'>
+        <node id='653' type='9'>
+         <attr name='value' type='4'>8 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesConsiderOtherObjects'>
+        <node id='654' type='11'>
+         <attr name='value' type='1'>0</attr>
+        </node>
+       </pin>
+      </node>
+     </pin>
+     <pin name='opacity'>
+      <node id='655' type='31'>
+       <attr name='value' type='6'>1</attr>
+      </node>
+     </pin>
+     <pin name='layer'>
+      <node id='656' type='144'>
+       <attr name='pin_count' type='2'>0</attr>
+      </node>
+     </pin>
+    </node>
+    <node id='599' type='30007' name='pale_skin_creature_like_sss' position='0 100'>
+     <attr name='group' type='10'></attr>
+     <attr name='description' type='10'></attr>
+     <pin name='input' connect='607'/>
+    </node>
+   </graph>
+   <graph id='657' type='1' name='icy' position='57.577301 -36.524017'>
+    <attr name='color' type='8'>1 1 1</attr>
+    <node id='659' type='146' name='Random walk' position='278 -11.1987'>
+     <attr name='compatibilityVersion' type='2'>13000200</attr>
+     <attr name='volumeUsePercentageStep' type='1'>0</attr>
+     <pin name='scale'>
+      <node id='660' type='6'>
+       <attr name='value' type='8'>2.45 0 0</attr>
+      </node>
+     </pin>
+     <pin name='rayMarchStepPercent'>
+      <node id='661' type='6'>
+       <attr name='value' type='8'>4 0 0</attr>
+      </node>
+     </pin>
+     <pin name='shadowRayMarchStepPercent'>
+      <node id='662' type='6'>
+       <attr name='value' type='8'>4 0 0</attr>
+      </node>
+     </pin>
+     <pin name='useRayStepLengthForShadowRays'>
+      <node id='663' type='11'>
+       <attr name='value' type='1'>1</attr>
+      </node>
+     </pin>
+     <pin name='singleScatterFactor'>
+      <node id='664' type='6'>
+       <attr name='value' type='8'>1 0 0</attr>
+      </node>
+     </pin>
+     <pin name='volumePadding'>
+      <node id='665' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='albedo'>
+      <node id='666' type='33'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='radius'>
+      <node id='667' type='33'>
+       <attr name='value' type='8'>0.12468064 0.65498537 0.84816754</attr>
+      </node>
+     </pin>
+     <pin name='bias'>
+      <node id='668' type='6'>
+       <attr name='value' type='8'>0.25 0 0</attr>
+      </node>
+     </pin>
+    </node>
+    <node id='669' type='130' name='icy' position='111.75 34.8013'>
+     <attr name='compatibilityVersion' type='2'>12000102</attr>
+     <pin name='transmission' connect='712'/>
+     <pin name='transmissionType'>
+      <node id='670' type='57'>
+       <attr name='value' type='2'>1</attr>
+      </node>
+     </pin>
+     <pin name='albedo' connect='713'/>
+     <pin name='diffuseBrdf'>
+      <node id='671' type='57'>
+       <attr name='value' type='2'>2</attr>
+      </node>
+     </pin>
+     <pin name='metallic'>
+      <node id='672' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='edgeTint'>
+      <node id='673' type='33'>
+       <attr name='value' type='8'>1 1 1</attr>
+      </node>
+     </pin>
+     <pin name='specular'>
+      <node id='674' type='31'>
+       <attr name='value' type='6'>1</attr>
+      </node>
+     </pin>
+     <pin name='brdf'>
+      <node id='675' type='57'>
+       <attr name='value' type='2'>6</attr>
+      </node>
+     </pin>
+     <pin name='roughness'>
+      <node id='676' type='31'>
+       <attr name='value' type='6'>0.1</attr>
+      </node>
+     </pin>
+     <pin name='anisotropy'>
+      <node id='677' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='rotation'>
+      <node id='678' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='spread'>
+      <node id='679' type='6'>
+       <attr name='value' type='8'>0.5 0 0</attr>
+      </node>
+     </pin>
+     <pin name='index4'>
+      <node id='680' type='6'>
+       <attr name='value' type='8'>1.5 0 0</attr>
+      </node>
+     </pin>
+     <pin name='metallicMode'>
+      <node id='681' type='57'>
+       <attr name='value' type='2'>0</attr>
+      </node>
+     </pin>
+     <pin name='index'>
+      <node id='682' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='index2'>
+      <node id='683' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='index3'>
+      <node id='684' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='hasCaustics'>
+      <node id='685' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='coating'>
+      <node id='686' type='31'>
+       <attr name='value' type='6'>0.25</attr>
+      </node>
+     </pin>
+     <pin name='coatingRoughness'>
+      <node id='687' type='31'>
+       <attr name='value' type='6'>0.69999999</attr>
+      </node>
+     </pin>
+     <pin name='coatingIndex'>
+      <node id='688' type='6'>
+       <attr name='value' type='8'>1.3 0 0</attr>
+      </node>
+     </pin>
+     <pin name='filmwidth'>
+      <node id='689' type='31'>
+       <attr name='value' type='6'>0</attr>
+      </node>
+     </pin>
+     <pin name='filmindex'>
+      <node id='690' type='6'>
+       <attr name='value' type='8'>1.45 0 0</attr>
+      </node>
+     </pin>
+     <pin name='sheen'>
+      <node id='691' type='33'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='sheenRoughness'>
+      <node id='692' type='31'>
+       <attr name='value' type='6'>0.2</attr>
+      </node>
+     </pin>
+     <pin name='dispersion_coefficient_B'>
+      <node id='693' type='6'>
+       <attr name='value' type='8'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='dispersionMode'>
+      <node id='694' type='57'>
+       <attr name='value' type='2'>2</attr>
+      </node>
+     </pin>
+     <pin name='medium' connect='659'/>
+     <pin name='opacity'>
+      <node id='695' type='31'>
+       <attr name='value' type='6'>1</attr>
+      </node>
+     </pin>
+     <pin name='fake_shadows'>
+      <node id='696' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='refractionAlpha'>
+      <node id='697' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='bumpHeight'>
+      <node id='698' type='6'>
+       <attr name='value' type='8'>0.0099999998 0 0</attr>
+      </node>
+     </pin>
+     <pin name='smooth'>
+      <node id='699' type='11'>
+       <attr name='value' type='1'>1</attr>
+      </node>
+     </pin>
+     <pin name='smoothShadowTerminator'>
+      <node id='700' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='roundEdges'>
+      <node id='701' type='137'>
+       <attr name='compatibilityVersion' type='2'>12000102</attr>
+       <pin name='roundEdgesMode'>
+        <node id='702' type='57'>
+         <attr name='value' type='2'>1</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesRadius'>
+        <node id='703' type='6'>
+         <attr name='value' type='8'>0 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesCurvatureRoundness'>
+        <node id='704' type='6'>
+         <attr name='value' type='8'>1 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesSampleCount'>
+        <node id='705' type='9'>
+         <attr name='value' type='4'>8 0 0</attr>
+        </node>
+       </pin>
+       <pin name='roundEdgesConsiderOtherObjects'>
+        <node id='706' type='11'>
+         <attr name='value' type='1'>0</attr>
+        </node>
+       </pin>
+      </node>
+     </pin>
+     <pin name='priority'>
+      <node id='707' type='9'>
+       <attr name='value' type='4'>0 0 0</attr>
+      </node>
+     </pin>
+     <pin name='matte'>
+      <node id='708' type='11'>
+       <attr name='value' type='1'>0</attr>
+      </node>
+     </pin>
+     <pin name='customAov'>
+      <node id='709' type='57'>
+       <attr name='value' type='2'>4096</attr>
+      </node>
+     </pin>
+     <pin name='customAovChannel'>
+      <node id='710' type='57'>
+       <attr name='value' type='2'>0</attr>
+      </node>
+     </pin>
+     <pin name='layer'>
+      <node id='711' type='144'>
+       <attr name='pin_count' type='2'>0</attr>
+      </node>
+     </pin>
+    </node>
+    <node id='712' type='33' name='transmission_rgb_color' position='-360 -14.40387'>
+     <attr name='value' type='8'>0.67200005 0.74086404 0.80000001</attr>
+    </node>
+    <node id='713' type='33' name='base_rgb_color' position='-200 -13'>
+     <attr name='value' type='8'>0 0 0</attr>
+    </node>
+    <node id='658' type='30007' name='Universal material' position='-196.25 134.8013'>
+     <attr name='group' type='10'></attr>
+     <attr name='description' type='10'></attr>
+     <pin name='input' connect='669'/>
+    </node>
+   </graph>
+  </graph>
+ </graph>
+</OCS2>
