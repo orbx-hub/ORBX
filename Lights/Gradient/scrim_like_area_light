@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='utf-8'?>
+<OCS2 version='14020000'>
+ <graph id='1' type='1' name='clipboard'>
+  <graph id='1976' type='1' name='SCRIM_LOOKING_LIGHT' position='-375 263.5'>
+   <attr name='color' type='8'>1 1 1</attr>
+   <node id='1977' type='20002' name='Quad size' position='-391 154'>
+    <attr name='group' type='10'></attr>
+    <attr name='description' type='10'></attr>
+    <pin name='input'>
+     <node id='1978' type='6'>
+      <attr name='value' type='8'>1 1 0</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='1979' type='20002' name='Power' position='-79.935394 11.846146'>
+    <attr name='group' type='10'></attr>
+    <attr name='description' type='10'></attr>
+    <pin name='input'>
+     <node id='1980' type='6'>
+      <attr name='value' type='8'>10 0 0</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='1981' type='20002' name='Cone angle' position='27.064606 -32.153854'>
+    <attr name='group' type='10'></attr>
+    <attr name='description' type='10'></attr>
+    <pin name='input'>
+     <node id='1982' type='6'>
+      <attr name='value' type='8'>180 0 0</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='1983' type='20002' name='General visibility' position='67.064575 96.846146'>
+    <attr name='group' type='10'></attr>
+    <attr name='description' type='10'></attr>
+    <pin name='input'>
+     <node id='1984' type='6'>
+      <attr name='value' type='8'>1 0 0</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='1985' type='20002' name='Sampling rate' position='151.56461 12.846146'>
+    <attr name='group' type='10'></attr>
+    <attr name='description' type='10'></attr>
+    <pin name='input'>
+     <node id='1986' type='6'>
+      <attr name='value' type='8'>1 0 0</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='1987' type='20001' name='Camera visibility' position='213.06464 96.846146'>
+    <attr name='group' type='10'></attr>
+    <attr name='description' type='10'></attr>
+    <pin name='input'>
+     <node id='1988' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='1989' type='20004' name='Transformation' position='440 160'>
+    <attr name='group' type='10'></attr>
+    <attr name='description' type='10'></attr>
+    <pin name='input'>
+     <node id='1990' type='67'>
+      <attr name='rotationOrder' type='2'>2</attr>
+      <attr name='rotation' type='8'>0 0 0</attr>
+      <attr name='scale' type='8'>1 1 1</attr>
+      <attr name='translation' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='1992' type='148' name='SCRIM_LOOKING_AREA_LIGHT' position='43.230331 253.84615'>
+    <attr name='userInstanceId' type='2'>-1</attr>
+    <pin name='size' connect='1977'/>
+    <pin name='material1' connect='2013'/>
+    <pin name='objectLayer' connect='2046'/>
+    <pin name='transform' connect='1989'/>
+   </node>
+   <node id='1993' type='54' name='Texture emission' position='-31.769667 53.846146'>
+    <pin name='efficiency or texture' connect='2031'/>
+    <pin name='power' connect='1979'/>
+    <pin name='surfaceBrightness'>
+     <node id='1994' type='11'>
+      <attr name='value' type='1'>0</attr>
+     </node>
+    </pin>
+    <pin name='keepInstancePower'>
+     <node id='1995' type='11'>
+      <attr name='value' type='1'>0</attr>
+     </node>
+    </pin>
+    <pin name='doubleSided'>
+     <node id='1996' type='11'>
+      <attr name='value' type='1'>0</attr>
+     </node>
+    </pin>
+    <pin name='distribution' connect='2041'/>
+    <pin name='sampling_rate' connect='1985'/>
+    <pin name='lightPassId'>
+     <node id='1997' type='9'>
+      <attr name='value' type='4'>1 0 0</attr>
+     </node>
+    </pin>
+    <pin name='illumination'>
+     <node id='1998' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='visibleOnSpecular'>
+     <node id='1999' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='visibleOnScatteringVolumes'>
+     <node id='2000' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='transparentEmission'>
+     <node id='2001' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='castShadows'>
+     <node id='2002' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='2003' type='332' name='Gradient generator' position='-240.43536 -81'>
+    <pin name='gradientType'>
+     <node id='2004' type='57'>
+      <attr name='value' type='2'>1</attr>
+     </node>
+    </pin>
+    <pin name='repetitions'>
+     <node id='2005' type='6'>
+      <attr name='value' type='8'>1 0 0</attr>
+     </node>
+    </pin>
+    <pin name='polygonSides'>
+     <node id='2006' type='9'>
+      <attr name='value' type='4'>4 0 0</attr>
+     </node>
+    </pin>
+    <pin name='gamma'>
+     <node id='2007' type='6'>
+      <attr name='value' type='8'>0.17500001 0 0</attr>
+     </node>
+    </pin>
+    <pin name='invert'>
+     <node id='2008' type='11'>
+      <attr name='value' type='1'>0</attr>
+     </node>
+    </pin>
+    <pin name='transform'>
+     <node id='2009' type='67'>
+      <attr name='rotationOrder' type='2'>2</attr>
+      <attr name='rotation' type='8'>0 0 0</attr>
+      <attr name='scale' type='8'>750 750 750</attr>
+      <attr name='translation' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='projection'>
+     <node id='2010' type='78'>
+      <attr name='compatibilityVersion' type='2'>14020000</attr>
+      <pin name='uvSet'>
+       <node id='2011' type='9'>
+        <attr name='value' type='4'>1 0 0</attr>
+       </node>
+      </pin>
+     </node>
+    </pin>
+    <pin name='borderMode'>
+     <node id='2012' type='57'>
+      <attr name='value' type='2'>1</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='2013' type='17' name='Diffuse material' position='-131.76967 153.84615'>
+    <attr name='compatibilityVersion' type='2'>13000200</attr>
+    <pin name='diffuse'>
+     <node id='2014' type='33'>
+      <attr name='value' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='diffuseBrdf'>
+     <node id='2015' type='57'>
+      <attr name='value' type='2'>0</attr>
+     </node>
+    </pin>
+    <pin name='roughness'>
+     <node id='2016' type='31'>
+      <attr name='value' type='6'>0</attr>
+     </node>
+    </pin>
+    <pin name='bumpHeight'>
+     <node id='2017' type='6'>
+      <attr name='value' type='8'>0.001 0 0</attr>
+     </node>
+    </pin>
+    <pin name='smooth'>
+     <node id='2018' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='smoothShadowTerminator'>
+     <node id='2019' type='11'>
+      <attr name='value' type='1'>0</attr>
+     </node>
+    </pin>
+    <pin name='roundEdges'>
+     <node id='2020' type='137'>
+      <attr name='compatibilityVersion' type='2'>13000200</attr>
+      <pin name='roundEdgesMode'>
+       <node id='2021' type='57'>
+        <attr name='value' type='2'>0</attr>
+       </node>
+      </pin>
+      <pin name='roundEdgesRadius'>
+       <node id='2022' type='6'>
+        <attr name='value' type='8'>0 0 0</attr>
+       </node>
+      </pin>
+      <pin name='roundEdgesCurvatureRoundness'>
+       <node id='2023' type='6'>
+        <attr name='value' type='8'>1 0 0</attr>
+       </node>
+      </pin>
+      <pin name='roundEdgesSampleCount'>
+       <node id='2024' type='9'>
+        <attr name='value' type='4'>8 0 0</attr>
+       </node>
+      </pin>
+      <pin name='roundEdgesConsiderOtherObjects'>
+       <node id='2025' type='11'>
+        <attr name='value' type='1'>0</attr>
+       </node>
+      </pin>
+     </node>
+    </pin>
+    <pin name='priority'>
+     <node id='2026' type='9'>
+      <attr name='value' type='4'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='emission' connect='1993'/>
+    <pin name='matte'>
+     <node id='2027' type='11'>
+      <attr name='value' type='1'>0</attr>
+     </node>
+    </pin>
+    <pin name='customAov'>
+     <node id='2028' type='57'>
+      <attr name='value' type='2'>4096</attr>
+     </node>
+    </pin>
+    <pin name='customAovChannel'>
+     <node id='2029' type='57'>
+      <attr name='value' type='2'>0</attr>
+     </node>
+    </pin>
+    <pin name='layer'>
+     <node id='2030' type='144'>
+      <attr name='pin_count' type='2'>0</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='2031' type='51' name='Color correction' position='-150.93536 -29'>
+    <pin name='texture' connect='2003'/>
+    <pin name='brightness'>
+     <node id='2032' type='31'>
+      <attr name='value' type='6'>0.0099999998</attr>
+     </node>
+    </pin>
+    <pin name='invert'>
+     <node id='2033' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='hue'>
+     <node id='2034' type='6'>
+      <attr name='value' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='saturation'>
+     <node id='2035' type='6'>
+      <attr name='value' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='gamma'>
+     <node id='2036' type='6'>
+      <attr name='value' type='8'>0.13900001 0 0</attr>
+     </node>
+    </pin>
+    <pin name='contrast'>
+     <node id='2037' type='6'>
+      <attr name='value' type='8'>1000 0 0</attr>
+     </node>
+    </pin>
+    <pin name='gain'>
+     <node id='2038' type='6'>
+      <attr name='value' type='8'>1 0 0</attr>
+     </node>
+    </pin>
+    <pin name='exposure'>
+     <node id='2039' type='6'>
+      <attr name='value' type='8'>-2 0 0</attr>
+     </node>
+    </pin>
+    <pin name='mask'>
+     <node id='2040' type='6'>
+      <attr name='value' type='8'>1 0 0</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='2041' type='158' name='Spotlight' position='25.480347 13.346146'>
+    <pin name='orientation'>
+     <node id='2042' type='57'>
+      <attr name='value' type='2'>1</attr>
+     </node>
+    </pin>
+    <pin name='target'>
+     <node id='2043' type='6'>
+      <attr name='value' type='8'>0 -1 0</attr>
+     </node>
+    </pin>
+    <pin name='coneAngle' connect='1981'/>
+    <pin name='hardness'>
+     <node id='2044' type='6'>
+      <attr name='value' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='normalize'>
+     <node id='2045' type='11'>
+      <attr name='value' type='1'>0</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='2046' type='65' name='Object layer' position='218.23033 153.84615'>
+    <pin name='layerId'>
+     <node id='2047' type='9'>
+      <attr name='value' type='4'>1 0 0</attr>
+     </node>
+    </pin>
+    <pin name='general_visibility' connect='1983'/>
+    <pin name='camera_visibility' connect='1987'/>
+    <pin name='shadow_visibility'>
+     <node id='2048' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='dirtVisibility'>
+     <node id='2049' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='curvatureVisibility'>
+     <node id='2050' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='roundEdgesVisibility'>
+     <node id='2051' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='lightPassMask'>
+     <node id='2052' type='132'>
+      <attr name='value' type='2'>4194303</attr>
+     </node>
+    </pin>
+    <pin name='randomSeed'>
+     <node id='2053' type='9'>
+      <attr name='value' type='4'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='objectColor'>
+     <node id='2054' type='9'>
+      <attr name='value' type='4'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='customAov'>
+     <node id='2055' type='57'>
+      <attr name='value' type='2'>4096</attr>
+     </node>
+    </pin>
+    <pin name='customAovChannel'>
+     <node id='2056' type='57'>
+      <attr name='value' type='2'>0</attr>
+     </node>
+    </pin>
+    <pin name='bakingGroupId'>
+     <node id='2057' type='9'>
+      <attr name='value' type='4'>1 0 0</attr>
+     </node>
+    </pin>
+    <pin name='transform'>
+     <node id='2058' type='67'>
+      <attr name='rotationOrder' type='2'>2</attr>
+      <attr name='rotation' type='8'>-0 0 0</attr>
+      <attr name='scale' type='8'>1 1 1</attr>
+      <attr name='translation' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='1991' type='30012' name='SCRIM_LOOKING_AREA_LIGHT_OUT' position='43.230331 353.84613'>
+    <attr name='group' type='10'></attr>
+    <attr name='description' type='10'></attr>
+    <pin name='input' connect='1992'/>
+   </node>
+  </graph>
+ </graph>
+</OCS2>
