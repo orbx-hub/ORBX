@@ -1,0 +1,740 @@
+<?xml version='1.0' encoding='utf-8'?>
+<OCS2 version='14020000'>
+ <graph id='1' type='1' name='clipboard'>
+  <graph id='594' type='1' name='STUDIO_AREA_LIGHT_SET' position='321 214.99998'>
+   <attr name='color' type='8'>1 1 1</attr>
+   <node id='595' type='20002' name='Quad size' position='-391 154'>
+    <attr name='group' type='10'></attr>
+    <attr name='description' type='10'></attr>
+    <pin name='input'>
+     <node id='596' type='6'>
+      <attr name='value' type='8'>1 1 0</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='597' type='20003' name='Input' position='-342.64062 -54.876526'>
+    <attr name='group' type='10'></attr>
+    <attr name='description' type='10'></attr>
+    <pin name='input'>
+     <node id='598' type='9'>
+      <attr name='value' type='4'>6 0 0</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='599' type='20002' name='Power' position='-79.935394 11.846146'>
+    <attr name='group' type='10'></attr>
+    <attr name='description' type='10'></attr>
+    <pin name='input'>
+     <node id='600' type='6'>
+      <attr name='value' type='8'>50 0 0</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='601' type='20002' name='Cone angle' position='27.064606 -32.153854'>
+    <attr name='group' type='10'></attr>
+    <attr name='description' type='10'></attr>
+    <pin name='input'>
+     <node id='602' type='6'>
+      <attr name='value' type='8'>180 0 0</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='603' type='20002' name='General visibility' position='67.064575 96.846146'>
+    <attr name='group' type='10'></attr>
+    <attr name='description' type='10'></attr>
+    <pin name='input'>
+     <node id='604' type='6'>
+      <attr name='value' type='8'>1 0 0</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='605' type='20002' name='Sampling rate' position='151.56461 12.846146'>
+    <attr name='group' type='10'></attr>
+    <attr name='description' type='10'></attr>
+    <pin name='input'>
+     <node id='606' type='6'>
+      <attr name='value' type='8'>1 0 0</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='607' type='20001' name='Camera visibility' position='213.06464 96.846146'>
+    <attr name='group' type='10'></attr>
+    <attr name='description' type='10'></attr>
+    <pin name='input'>
+     <node id='608' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='609' type='20004' name='Transformation' position='244 211'>
+    <attr name='group' type='10'></attr>
+    <attr name='description' type='10'></attr>
+    <pin name='input'>
+     <node id='610' type='67'>
+      <attr name='rotationOrder' type='2'>2</attr>
+      <attr name='rotation' type='8'>0 0 0</attr>
+      <attr name='scale' type='8'>1 1 1</attr>
+      <attr name='translation' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='612' type='332' name='Gradient generator' position='249 -202'>
+    <pin name='gradientType'>
+     <node id='613' type='57'>
+      <attr name='value' type='2'>1</attr>
+     </node>
+    </pin>
+    <pin name='repetitions'>
+     <node id='614' type='6'>
+      <attr name='value' type='8'>1 0 0</attr>
+     </node>
+    </pin>
+    <pin name='polygonSides'>
+     <node id='615' type='9'>
+      <attr name='value' type='4'>4 0 0</attr>
+     </node>
+    </pin>
+    <pin name='gamma'>
+     <node id='616' type='6'>
+      <attr name='value' type='8'>8 0 0</attr>
+     </node>
+    </pin>
+    <pin name='invert'>
+     <node id='617' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='transform'>
+     <node id='618' type='67'>
+      <attr name='rotationOrder' type='2'>2</attr>
+      <attr name='rotation' type='8'>0 0 0</attr>
+      <attr name='scale' type='8'>10 10 10</attr>
+      <attr name='translation' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='projection'>
+     <node id='619' type='78'>
+      <attr name='compatibilityVersion' type='2'>14020000</attr>
+      <pin name='uvSet'>
+       <node id='620' type='9'>
+        <attr name='value' type='4'>1 0 0</attr>
+       </node>
+      </pin>
+     </node>
+    </pin>
+    <pin name='borderMode'>
+     <node id='621' type='57'>
+      <attr name='value' type='2'>2</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='622' type='51' name='Color correction' position='48.064636 -167'>
+    <pin name='texture' connect='667'/>
+    <pin name='brightness'>
+     <node id='623' type='31'>
+      <attr name='value' type='6'>0.0099999998</attr>
+     </node>
+    </pin>
+    <pin name='invert'>
+     <node id='624' type='11'>
+      <attr name='value' type='1'>0</attr>
+     </node>
+    </pin>
+    <pin name='hue'>
+     <node id='625' type='6'>
+      <attr name='value' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='saturation'>
+     <node id='626' type='6'>
+      <attr name='value' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='gamma'>
+     <node id='627' type='6'>
+      <attr name='value' type='8'>0.13900001 0 0</attr>
+     </node>
+    </pin>
+    <pin name='contrast'>
+     <node id='628' type='6'>
+      <attr name='value' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='gain'>
+     <node id='629' type='6'>
+      <attr name='value' type='8'>1 0 0</attr>
+     </node>
+    </pin>
+    <pin name='exposure'>
+     <node id='630' type='6'>
+      <attr name='value' type='8'>-5.6599998 0 0</attr>
+     </node>
+    </pin>
+    <pin name='mask'>
+     <node id='631' type='6'>
+      <attr name='value' type='8'>1 0 0</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='632' type='65' name='Object layer' position='218.23033 153.84615'>
+    <pin name='layerId'>
+     <node id='633' type='9'>
+      <attr name='value' type='4'>1 0 0</attr>
+     </node>
+    </pin>
+    <pin name='general_visibility' connect='603'/>
+    <pin name='camera_visibility' connect='607'/>
+    <pin name='shadow_visibility'>
+     <node id='634' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='dirtVisibility'>
+     <node id='635' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='curvatureVisibility'>
+     <node id='636' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='roundEdgesVisibility'>
+     <node id='637' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='lightPassMask'>
+     <node id='638' type='132'>
+      <attr name='value' type='2'>4194303</attr>
+     </node>
+    </pin>
+    <pin name='randomSeed'>
+     <node id='639' type='9'>
+      <attr name='value' type='4'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='objectColor'>
+     <node id='640' type='9'>
+      <attr name='value' type='4'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='customAov'>
+     <node id='641' type='57'>
+      <attr name='value' type='2'>4096</attr>
+     </node>
+    </pin>
+    <pin name='customAovChannel'>
+     <node id='642' type='57'>
+      <attr name='value' type='2'>0</attr>
+     </node>
+    </pin>
+    <pin name='bakingGroupId'>
+     <node id='643' type='9'>
+      <attr name='value' type='4'>1 0 0</attr>
+     </node>
+    </pin>
+    <pin name='transform'>
+     <node id='644' type='67'>
+      <attr name='rotationOrder' type='2'>2</attr>
+      <attr name='rotation' type='8'>-0 0 0</attr>
+      <attr name='scale' type='8'>1 1 1</attr>
+      <attr name='translation' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='645' type='40005' name='Texture switch' position='-195 -26.65387'>
+    <attr name='optionCount' type='2'>7</attr>
+    <pin name='index' connect='597'/>
+    <pin name='Input 1' dynamicType='5' connect='721'/>
+    <pin name='Input 2' dynamicType='5' connect='677'/>
+    <pin name='Input 3' dynamicType='5' connect='732'/>
+    <pin name='Input 4' dynamicType='5' connect='692'/>
+    <pin name='Input 5' dynamicType='5' connect='722'/>
+    <pin name='Input 6' dynamicType='5' connect='656'/>
+    <pin name='Input 7' dynamicType='5' connect='622'/>
+   </node>
+   <node id='646' type='54' name='Texture emission' position='-31.769667 53.846146'>
+    <pin name='efficiency or texture' connect='645'/>
+    <pin name='power' connect='599'/>
+    <pin name='surfaceBrightness'>
+     <node id='647' type='11'>
+      <attr name='value' type='1'>0</attr>
+     </node>
+    </pin>
+    <pin name='keepInstancePower'>
+     <node id='648' type='11'>
+      <attr name='value' type='1'>0</attr>
+     </node>
+    </pin>
+    <pin name='doubleSided'>
+     <node id='649' type='11'>
+      <attr name='value' type='1'>0</attr>
+     </node>
+    </pin>
+    <pin name='distribution' connect='687'/>
+    <pin name='sampling_rate' connect='605'/>
+    <pin name='lightPassId'>
+     <node id='650' type='9'>
+      <attr name='value' type='4'>1 0 0</attr>
+     </node>
+    </pin>
+    <pin name='illumination'>
+     <node id='651' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='visibleOnSpecular'>
+     <node id='652' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='visibleOnScatteringVolumes'>
+     <node id='653' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='transparentEmission'>
+     <node id='654' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='castShadows'>
+     <node id='655' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='656' type='51' name='Color correction' position='273 -169'>
+    <pin name='texture' connect='612'/>
+    <pin name='brightness'>
+     <node id='657' type='31'>
+      <attr name='value' type='6'>1</attr>
+     </node>
+    </pin>
+    <pin name='invert'>
+     <node id='658' type='11'>
+      <attr name='value' type='1'>0</attr>
+     </node>
+    </pin>
+    <pin name='hue'>
+     <node id='659' type='6'>
+      <attr name='value' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='saturation'>
+     <node id='660' type='6'>
+      <attr name='value' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='gamma'>
+     <node id='661' type='6'>
+      <attr name='value' type='8'>2.5899999 0 0</attr>
+     </node>
+    </pin>
+    <pin name='contrast'>
+     <node id='662' type='6'>
+      <attr name='value' type='8'>3 0 0</attr>
+     </node>
+    </pin>
+    <pin name='gain'>
+     <node id='663' type='6'>
+      <attr name='value' type='8'>1 0 0</attr>
+     </node>
+    </pin>
+    <pin name='exposure'>
+     <node id='664' type='6'>
+      <attr name='value' type='8'>-6 0 0</attr>
+     </node>
+    </pin>
+    <pin name='mask'>
+     <node id='665' type='6'>
+      <attr name='value' type='8'>1 0 0</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='666' type='148' name='STUDIO_AREA_LIGHT' position='43.230331 253.84615'>
+    <attr name='userInstanceId' type='2'>-1</attr>
+    <pin name='size' connect='595'/>
+    <pin name='material1' connect='702'/>
+    <pin name='objectLayer' connect='632'/>
+    <pin name='transform' connect='609'/>
+   </node>
+   <node id='667' type='332' name='Gradient generator' position='29.564636 -208'>
+    <pin name='gradientType'>
+     <node id='668' type='57'>
+      <attr name='value' type='2'>1</attr>
+     </node>
+    </pin>
+    <pin name='repetitions'>
+     <node id='669' type='6'>
+      <attr name='value' type='8'>1 0 0</attr>
+     </node>
+    </pin>
+    <pin name='polygonSides'>
+     <node id='670' type='9'>
+      <attr name='value' type='4'>4 0 0</attr>
+     </node>
+    </pin>
+    <pin name='gamma'>
+     <node id='671' type='6'>
+      <attr name='value' type='8'>8 0 0</attr>
+     </node>
+    </pin>
+    <pin name='invert'>
+     <node id='672' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='transform'>
+     <node id='673' type='67'>
+      <attr name='rotationOrder' type='2'>2</attr>
+      <attr name='rotation' type='8'>0 0 0</attr>
+      <attr name='scale' type='8'>0.63300002 0.63300002 0.63300002</attr>
+      <attr name='translation' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='projection'>
+     <node id='674' type='78'>
+      <attr name='compatibilityVersion' type='2'>14020000</attr>
+      <pin name='uvSet'>
+       <node id='675' type='9'>
+        <attr name='value' type='4'>1 0 0</attr>
+       </node>
+      </pin>
+     </node>
+    </pin>
+    <pin name='borderMode'>
+     <node id='676' type='57'>
+      <attr name='value' type='2'>2</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='677' type='332' name='Gradient generator' position='-235 -135'>
+    <pin name='gradientType'>
+     <node id='678' type='57'>
+      <attr name='value' type='2'>1</attr>
+     </node>
+    </pin>
+    <pin name='repetitions'>
+     <node id='679' type='6'>
+      <attr name='value' type='8'>1 0 0</attr>
+     </node>
+    </pin>
+    <pin name='polygonSides'>
+     <node id='680' type='9'>
+      <attr name='value' type='4'>4 0 0</attr>
+     </node>
+    </pin>
+    <pin name='gamma'>
+     <node id='681' type='6'>
+      <attr name='value' type='8'>3 0 0</attr>
+     </node>
+    </pin>
+    <pin name='invert'>
+     <node id='682' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='transform'>
+     <node id='683' type='67'>
+      <attr name='rotationOrder' type='2'>2</attr>
+      <attr name='rotation' type='8'>0 0 0</attr>
+      <attr name='scale' type='8'>0.99999994 0.99999994 0.99999994</attr>
+      <attr name='translation' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='projection'>
+     <node id='684' type='78'>
+      <attr name='compatibilityVersion' type='2'>14020000</attr>
+      <pin name='uvSet'>
+       <node id='685' type='9'>
+        <attr name='value' type='4'>1 0 0</attr>
+       </node>
+      </pin>
+     </node>
+    </pin>
+    <pin name='borderMode'>
+     <node id='686' type='57'>
+      <attr name='value' type='2'>2</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='687' type='158' name='Spotlight' position='25.480347 13.346146'>
+    <pin name='orientation'>
+     <node id='688' type='57'>
+      <attr name='value' type='2'>1</attr>
+     </node>
+    </pin>
+    <pin name='target'>
+     <node id='689' type='6'>
+      <attr name='value' type='8'>0 -1 0</attr>
+     </node>
+    </pin>
+    <pin name='coneAngle' connect='601'/>
+    <pin name='hardness'>
+     <node id='690' type='6'>
+      <attr name='value' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='normalize'>
+     <node id='691' type='11'>
+      <attr name='value' type='1'>0</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='692' type='332' name='Gradient generator' position='-184 -238'>
+    <pin name='gradientType'>
+     <node id='693' type='57'>
+      <attr name='value' type='2'>1</attr>
+     </node>
+    </pin>
+    <pin name='repetitions'>
+     <node id='694' type='6'>
+      <attr name='value' type='8'>1 0 0</attr>
+     </node>
+    </pin>
+    <pin name='polygonSides'>
+     <node id='695' type='9'>
+      <attr name='value' type='4'>4 0 0</attr>
+     </node>
+    </pin>
+    <pin name='gamma'>
+     <node id='696' type='6'>
+      <attr name='value' type='8'>8 0 0</attr>
+     </node>
+    </pin>
+    <pin name='invert'>
+     <node id='697' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='transform'>
+     <node id='698' type='67'>
+      <attr name='rotationOrder' type='2'>2</attr>
+      <attr name='rotation' type='8'>0 90 0</attr>
+      <attr name='scale' type='8'>0.99999994 0.99999994 0.99999994</attr>
+      <attr name='translation' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='projection'>
+     <node id='699' type='78'>
+      <attr name='compatibilityVersion' type='2'>14020000</attr>
+      <pin name='uvSet'>
+       <node id='700' type='9'>
+        <attr name='value' type='4'>1 0 0</attr>
+       </node>
+      </pin>
+     </node>
+    </pin>
+    <pin name='borderMode'>
+     <node id='701' type='57'>
+      <attr name='value' type='2'>2</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='702' type='17' name='Diffuse material' position='-131.76967 153.84615'>
+    <attr name='compatibilityVersion' type='2'>13000200</attr>
+    <pin name='diffuse'>
+     <node id='703' type='33'>
+      <attr name='value' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='diffuseBrdf'>
+     <node id='704' type='57'>
+      <attr name='value' type='2'>0</attr>
+     </node>
+    </pin>
+    <pin name='roughness'>
+     <node id='705' type='31'>
+      <attr name='value' type='6'>0</attr>
+     </node>
+    </pin>
+    <pin name='opacity'>
+     <node id='706' type='31'>
+      <attr name='value' type='6'>1</attr>
+     </node>
+    </pin>
+    <pin name='bumpHeight'>
+     <node id='707' type='6'>
+      <attr name='value' type='8'>0.001 0 0</attr>
+     </node>
+    </pin>
+    <pin name='smooth'>
+     <node id='708' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='smoothShadowTerminator'>
+     <node id='709' type='11'>
+      <attr name='value' type='1'>0</attr>
+     </node>
+    </pin>
+    <pin name='roundEdges'>
+     <node id='710' type='137'>
+      <attr name='compatibilityVersion' type='2'>13000200</attr>
+      <pin name='roundEdgesMode'>
+       <node id='711' type='57'>
+        <attr name='value' type='2'>0</attr>
+       </node>
+      </pin>
+      <pin name='roundEdgesRadius'>
+       <node id='712' type='6'>
+        <attr name='value' type='8'>0 0 0</attr>
+       </node>
+      </pin>
+      <pin name='roundEdgesCurvatureRoundness'>
+       <node id='713' type='6'>
+        <attr name='value' type='8'>1 0 0</attr>
+       </node>
+      </pin>
+      <pin name='roundEdgesSampleCount'>
+       <node id='714' type='9'>
+        <attr name='value' type='4'>8 0 0</attr>
+       </node>
+      </pin>
+      <pin name='roundEdgesConsiderOtherObjects'>
+       <node id='715' type='11'>
+        <attr name='value' type='1'>0</attr>
+       </node>
+      </pin>
+     </node>
+    </pin>
+    <pin name='priority'>
+     <node id='716' type='9'>
+      <attr name='value' type='4'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='emission' connect='646'/>
+    <pin name='matte'>
+     <node id='717' type='11'>
+      <attr name='value' type='1'>0</attr>
+     </node>
+    </pin>
+    <pin name='customAov'>
+     <node id='718' type='57'>
+      <attr name='value' type='2'>4096</attr>
+     </node>
+    </pin>
+    <pin name='customAovChannel'>
+     <node id='719' type='57'>
+      <attr name='value' type='2'>0</attr>
+     </node>
+    </pin>
+    <pin name='layer'>
+     <node id='720' type='144'>
+      <attr name='pin_count' type='2'>0</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='721' type='31' name='float_Grayscale' position='-273 -94.65387'>
+    <attr name='value' type='6'>1</attr>
+   </node>
+   <node id='722' type='332' name='Gradient generator' position='-160 -283'>
+    <pin name='gradientType'>
+     <node id='723' type='57'>
+      <attr name='value' type='2'>3</attr>
+     </node>
+    </pin>
+    <pin name='repetitions'>
+     <node id='724' type='6'>
+      <attr name='value' type='8'>1 0 0</attr>
+     </node>
+    </pin>
+    <pin name='polygonSides'>
+     <node id='725' type='9'>
+      <attr name='value' type='4'>4 0 0</attr>
+     </node>
+    </pin>
+    <pin name='gamma'>
+     <node id='726' type='6'>
+      <attr name='value' type='8'>8 0 0</attr>
+     </node>
+    </pin>
+    <pin name='invert'>
+     <node id='727' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='transform'>
+     <node id='728' type='67'>
+      <attr name='rotationOrder' type='2'>2</attr>
+      <attr name='rotation' type='8'>0 0 0</attr>
+      <attr name='scale' type='8'>1.5899999 1.5899999 1.5899999</attr>
+      <attr name='translation' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='projection'>
+     <node id='729' type='78'>
+      <attr name='compatibilityVersion' type='2'>14020000</attr>
+      <pin name='uvSet'>
+       <node id='730' type='9'>
+        <attr name='value' type='4'>1 0 0</attr>
+       </node>
+      </pin>
+     </node>
+    </pin>
+    <pin name='borderMode'>
+     <node id='731' type='57'>
+      <attr name='value' type='2'>2</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='732' type='332' name='Gradient generator' position='-212 -198'>
+    <pin name='gradientType'>
+     <node id='733' type='57'>
+      <attr name='value' type='2'>1</attr>
+     </node>
+    </pin>
+    <pin name='repetitions'>
+     <node id='734' type='6'>
+      <attr name='value' type='8'>1 0 0</attr>
+     </node>
+    </pin>
+    <pin name='polygonSides'>
+     <node id='735' type='9'>
+      <attr name='value' type='4'>4 0 0</attr>
+     </node>
+    </pin>
+    <pin name='gamma'>
+     <node id='736' type='6'>
+      <attr name='value' type='8'>8 0 0</attr>
+     </node>
+    </pin>
+    <pin name='invert'>
+     <node id='737' type='11'>
+      <attr name='value' type='1'>1</attr>
+     </node>
+    </pin>
+    <pin name='transform'>
+     <node id='738' type='67'>
+      <attr name='rotationOrder' type='2'>2</attr>
+      <attr name='rotation' type='8'>0 0 0</attr>
+      <attr name='scale' type='8'>1.87 1.87 1.87</attr>
+      <attr name='translation' type='8'>0 0 0</attr>
+     </node>
+    </pin>
+    <pin name='projection'>
+     <node id='739' type='78'>
+      <attr name='compatibilityVersion' type='2'>14020000</attr>
+      <pin name='uvSet'>
+       <node id='740' type='9'>
+        <attr name='value' type='4'>1 0 0</attr>
+       </node>
+      </pin>
+     </node>
+    </pin>
+    <pin name='borderMode'>
+     <node id='741' type='57'>
+      <attr name='value' type='2'>2</attr>
+     </node>
+    </pin>
+   </node>
+   <node id='611' type='30012' name='STUDIO_AREA_LIGHT_SET_OUT' position='48.679688 330.28125'>
+    <attr name='group' type='10'></attr>
+    <attr name='description' type='10'></attr>
+    <pin name='input' connect='666'/>
+   </node>
+  </graph>
+ </graph>
+</OCS2>
