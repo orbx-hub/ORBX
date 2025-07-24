@@ -1,13 +1,14 @@
 # OctaneRender® ORBX File Repository
 
-ORBX file repository for Octane Render, a spectral GPU renderer
+ORBX file repository for Octane Render, a spectral GPU renderer.  
 Not associated with OTOY Inc.  
 
 <details>
-<summary> ORBX File Format</summary>
+<summary> Description of the .orbx file format (container)  </summary>
 
   ## ORBX
-  
+  "ORBX is a container format that includes all animation data, models, textures etc. that is needed to transfer an Octane scene from one application to another."  
+   
 > OTOY releases OctaneRender™ 1.5 and introduces .ORBX (20, 2014) 
 The new .ORBX file format improves considerably on traditional 3D formats such as .OBJ, .CAD, or .STL, going beyond storing simple geometry to include all aspects of a 3D scene, such as materials, properties, textures, lighting, transform hierarchies and cameras, all in a self-contained file format. Unlike the Alembic file format, .ORBX was designed in close collaboration with Autodesk and Mozilla to be a flexible container for a wide range of uses beyond computer graphics, including video, 3D printing, holography, design and engineering.  
 
