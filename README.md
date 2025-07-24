@@ -1,11 +1,10 @@
 # OctaneRender® ORBX File Repository
 
-skientia.co ORBX file reposity for Octane Render, a spectral GPU renderer[^1]
-
-[^1]: Images and information from: [Octane Spectral GPU Path-traced Rendering](https://skientia.co/cgi/octane-render)
+ORBX file repository for Octane Render, a spectral GPU renderer
+Not associated with OTOY Inc.  
 
 <details>
-<summary> About the 3D file format </summary>
+<summary> ORBX File Format</summary>
 
   ## ORBX
   
@@ -24,7 +23,7 @@ The new .ORBX file format improves considerably on traditional 3D formats such a
 
 ## Overview
 
-The ORBX file reposity is an easy way to quickly access, copy and paste modified Octane's items / objects or "nodes", in other words, custom presets.
+The ORBX file repository is an easy way to quickly access, copy and paste modified Octane's items / objects or "nodes", in other words, custom presets.
 Two approaches to this workflow:
 1. Copy of the raw code, for instance, to direcly paste in Octane Standalone
 2. Download of the .orbx file for a direct copy into the ORBX folder default directory known as the "LocalDb".
